@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\DEVS\\exercicios-para-treinar\\exercicios-para-treinar.csproj",
+      "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\DEVS\\exercicios-para-treinar\\exercicios-para-treinar.csproj",
       "projectName": "exercicios-para-treinar",
-      "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\DEVS\\exercicios-para-treinar\\exercicios-para-treinar.csproj",
+      "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\DEVS\\exercicios-para-treinar\\exercicios-para-treinar.csproj",
       "packagesPath": "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\DEVS\\exercicios-para-treinar\\obj\\",
+      "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\DEVS\\exercicios-para-treinar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

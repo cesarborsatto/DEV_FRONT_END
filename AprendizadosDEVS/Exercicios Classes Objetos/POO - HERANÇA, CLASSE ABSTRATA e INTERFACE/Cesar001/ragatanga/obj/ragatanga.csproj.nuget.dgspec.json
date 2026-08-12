@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\ragatanga.csproj": {}
+    "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\ragatanga.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\ragatanga.csproj": {
+    "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\ragatanga.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\ragatanga.csproj",
+        "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\ragatanga.csproj",
         "projectName": "ragatanga",
-        "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\ragatanga.csproj",
+        "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\ragatanga.csproj",
         "packagesPath": "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\obj\\",
+        "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar001\\ragatanga\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

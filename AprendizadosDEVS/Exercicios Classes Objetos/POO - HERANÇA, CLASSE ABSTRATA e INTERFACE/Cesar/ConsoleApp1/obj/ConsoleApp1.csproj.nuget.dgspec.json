@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\POO - HERANÇA, CLASSE ABSTRATA e INTERFACE\\Cesar\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

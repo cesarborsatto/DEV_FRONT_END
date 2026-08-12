@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\poo\\poo\\P_O_O.csproj": {}
+    "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\poo\\poo\\P_O_O.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\poo\\poo\\P_O_O.csproj": {
+    "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\poo\\poo\\P_O_O.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\poo\\poo\\P_O_O.csproj",
+        "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\poo\\poo\\P_O_O.csproj",
         "projectName": "P_O_O",
-        "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\poo\\poo\\P_O_O.csproj",
+        "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\poo\\poo\\P_O_O.csproj",
         "packagesPath": "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\poo\\poo\\obj\\",
+        "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\poo\\poo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

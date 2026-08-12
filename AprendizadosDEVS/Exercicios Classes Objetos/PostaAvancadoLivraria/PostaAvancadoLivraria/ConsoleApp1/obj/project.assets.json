@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\PostaAvancadoLivraria\\PostaAvancadoLivraria\\ConsoleApp1\\PostaAvancadoLivraria.csproj",
+      "projectUniqueName": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\PostaAvancadoLivraria\\PostaAvancadoLivraria\\ConsoleApp1\\PostaAvancadoLivraria.csproj",
       "projectName": "PostaAvancadoLivraria",
-      "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\PostaAvancadoLivraria\\PostaAvancadoLivraria\\ConsoleApp1\\PostaAvancadoLivraria.csproj",
+      "projectPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\PostaAvancadoLivraria\\PostaAvancadoLivraria\\ConsoleApp1\\PostaAvancadoLivraria.csproj",
       "packagesPath": "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\Exercicios Classes Objetos\\PostaAvancadoLivraria\\PostaAvancadoLivraria\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\Exercicios Classes Objetos\\PostaAvancadoLivraria\\PostaAvancadoLivraria\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

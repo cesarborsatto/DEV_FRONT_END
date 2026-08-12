@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ww7rHYJC5tc=",
+  "dgSpecHash": "vYT8Mbfvg1c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\DEVS\\ConsoleApp4\\ConsoleApp4.csproj",
+  "projectFilePath": "C:\\Users\\Cesar I3 10100F\\Desktop\\GIT_Arquivos_Aprendizado\\DEV_FRONT_END\\AprendizadosDEVS\\DEVS\\ConsoleApp4\\ConsoleApp4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\baseline\\4.1.0\\baseline.4.1.0.nupkg.sha512",
     "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
