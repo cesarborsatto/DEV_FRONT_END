@@ -37,154 +37,159 @@
         href="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/components/footer/footer.css">
 
     <!-- Scripts JavaScript -->
-    <script src="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/components/footer/footer.js"
+    <script
+        src="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/components/footer/footer.js"
         defer></script>
-    <script src="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/components/navbar/navbar.js"
+    <script
+        src="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/components/navbar/navbar.js"
         defer></script>
 
 </head>
 
 <body>
-
     <app-navbar></app-navbar>
 
-    <section class="sidebar">
+    <main>
 
-        <h1 class="sidebar-title">Caçadas</h1>
+        <section class="sidebar">
 
-        <nav class="sidebar-nav">
-            <a href="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/pages/hunts/register-hunts/register-hunts.html"
-                class="nav-link1  btn-generic">Nova Caçada</a>
-            <a href="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/pages/hunts/list-hunts/list-hunts.html"
-                class="nav-link2  btn-generic">Ver Caçadas</a>
-            <a href="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/pages/hunts/map/map.html"
-                class="nav-link3  btn-generic">Mapa</a>
-        </nav>
+            <h1 class="sidebar-title">Caçadas</h1>
 
-        <div class="card-content">
-            <section class="card-form-cadastro">
+            <nav class="sidebar-nav">
+                <a href="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/pages/hunts/register-hunts/register-hunts.html"
+                    class="nav-link1  btn-generic">Nova Caçada</a>
+                <a href="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/pages/hunts/list-hunts/list-hunts.html"
+                    class="nav-link2  btn-generic">Ver Caçadas</a>
+                <a href="/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/pages/hunts/map/map.html"
+                    class="nav-link3  btn-generic">Mapa</a>
+            </nav>
 
-                <h2 class="form-title">Cadastrar Caçada</h2>
+            <div class="card-content">
+                <section class="card-form-cadastro">
 
-                <form action=""
-                    method="post">
+                    <h2 class="form-title">Cadastrar Caçada</h2>
 
-                    <div class="form-group title-form">
-                        <label for="titulo">Título</label>
-                        <input type="text"
-                            id="titulo"
-                            name="titulo"
-                            placeholder="Ex: Aparição no Hospital Municipal">
-                    </div>
+                    <form action=""
+                        method="post">
 
-                    <div class="form-group status-form">
-                        <label for="status">Status</label>
-                        <select id="status"
-                            name="status">
-                            <option value=""
-                                selected
-                                disabled>Selecione...</option>
-                            <option value="ativa">Aberto</option>
-                            <option value="concluida">Investigando</option>
-                            <option value="arquivada">Resolvido</option>
-                            <option value="arquivada">Arquivado</option>
-                        </select>
-                    </div>
+                        <div class="form-group title-form">
+                            <label for="titulo">Título</label>
+                            <input type="text"
+                                id="titulo"
+                                name="titulo"
+                                placeholder="Ex: Aparição no Hospital Municipal">
+                        </div>
 
-                    <div class="form-group difficulty-form">
-                        <label for="dificuldade">Dificuldade</label>
-                        <select id="dificuldade"
-                            name="dificuldade">
-                            <option value=""
-                                selected
-                                disabled>Selecione...</option>
-                            <option value="facil">Fácil</option>
-                            <option value="media">Média</option>
-                            <option value="dificil">Difícil</option>
-                        </select>
-                    </div>
+                        <div class="form-group status-form">
+                            <label for="status">Status</label>
+                            <select id="status"
+                                name="status">
+                                <option value=""
+                                    selected
+                                    disabled>Selecione...</option>
+                                <option value="ativa">Aberto</option>
+                                <option value="concluida">Investigando</option>
+                                <option value="arquivada">Resolvido</option>
+                                <option value="arquivada">Arquivado</option>
+                            </select>
+                        </div>
 
-                    <div class="form-group city-form">
-                        <label for="cidade">Cidade</label>
-                        <input type="text"
-                            id="cidade"
-                            name="cidade"
-                            placeholder="Ex: Matão">
-                    </div>
+                        <div class="form-group difficulty-form">
+                            <label for="dificuldade">Dificuldade</label>
+                            <select id="dificuldade"
+                                name="dificuldade">
+                                <option value=""
+                                    selected
+                                    disabled>Selecione...</option>
+                                <option value="facil">Fácil</option>
+                                <option value="media">Média</option>
+                                <option value="dificil">Difícil</option>
+                            </select>
+                        </div>
 
-                    <div class="form-group uf-form">
-                        <label for="uf">UF</label>
-                        <input type="text"
-                            id="uf"
-                            name="uf"
-                            placeholder="Ex: SP"
-                            maxlength="2">
-                    </div>
+                        <div class="form-group city-form">
+                            <label for="cidade">Cidade</label>
+                            <input type="text"
+                                id="cidade"
+                                name="cidade"
+                                placeholder="Ex: Matão">
+                        </div>
 
-                     <div class="form-group country-form">
-                        <label for="Pais">Pais</label>
-                        <input type="text"
-                            id="Pais"
-                            name="Pais"
-                            placeholder="Ex: Basil"
-                            maxlength="2">
-                    </div>
+                        <div class="form-group uf-form">
+                            <label for="uf">UF</label>
+                            <input type="text"
+                                id="uf"
+                                name="uf"
+                                placeholder="Ex: SP"
+                                maxlength="2">
+                        </div>
 
-                    <div class="form-group entity-form">
-                        <label for="entidade">Entidade</label>
-                        <select id="entidade"
-                            name="entidade">
-                            <option value=""
-                                selected
-                                disabled>Selecione...</option>
-                            <option value="fantasma">Fantasma</option>
-                            <option value="poltergeist">Poltergeist</option>
-                            <option value="demonio">Demônio</option>
-                            <option value="sombra">Sombra</option>
-                        </select>
-                    </div>
+                        <div class="form-group country-form">
+                            <label for="Pais">Pais</label>
+                            <input type="text"
+                                id="Pais"
+                                name="Pais"
+                                placeholder="Ex: Basil"
+                                maxlength="2">
+                        </div>
 
-                    <div class="form-group latitude-form">
-                        <label for="latitude">Latitude</label>
-                        <input type="text"
-                            id="latitude"
-                            name="latitude"
-                            placeholder="Ex: 49.390219">
-                    </div>
+                        <div class="form-group entity-form">
+                            <label for="entidade">Entidade</label>
+                            <select id="entidade"
+                                name="entidade">
+                                <option value=""
+                                    selected
+                                    disabled>Selecione...</option>
+                                <option value="fantasma">Fantasma</option>
+                                <option value="poltergeist">Poltergeist</option>
+                                <option value="demonio">Demônio</option>
+                                <option value="sombra">Sombra</option>
+                            </select>
+                        </div>
 
-                    <div class="form-group longitude-form">
-                        <label for="longitude">Longitude</label>
-                        <input type="text"
-                            id="longitude"
-                            name="longitude"
-                            placeholder="Ex: -122.989969">
-                    </div>
+                        <div class="form-group latitude-form">
+                            <label for="latitude">Latitude</label>
+                            <input type="text"
+                                id="latitude"
+                                name="latitude"
+                                placeholder="Ex: 49.390219">
+                        </div>
 
-                    <div class="form-group date-form">
-                        <label for="data">Data</label>
-                        <input type="text"
-                            id="data"
-                            name="data"
-                            placeholder="dd/mm/aaaa">
-                    </div>
+                        <div class="form-group longitude-form">
+                            <label for="longitude">Longitude</label>
+                            <input type="text"
+                                id="longitude"
+                                name="longitude"
+                                placeholder="Ex: -122.989969">
+                        </div>
 
-                    <div class="form-group summary-form">
-                        <label for="resumo">Resumo</label>
-                        <textarea id="resumo"
-                            name="resumo"
-                            rows="4"
-                            placeholder="Ex: No hospital de Matões, luzes piscam e o elevador funciona sozinho"></textarea>
-                    </div>
-                </form>
+                        <div class="form-group date-form">
+                            <label for="data">Data</label>
+                            <input type="text"
+                                id="data"
+                                name="data"
+                                placeholder="dd/mm/aaaa">
+                        </div>
+
+                        <div class="form-group summary-form">
+                            <label for="resumo">Resumo</label>
+                            <textarea id="resumo"
+                                name="resumo"
+                                rows="4"
+                                placeholder="Ex: No hospital de Matões, luzes piscam e o elevador funciona sozinho"></textarea>
+                        </div>
+                    </form>
 
                     <button type="submit"
                         class="btn-cadastrar  btn-generic">Cadastrar</button>
 
 
-            </section>
-        </div>
+                </section>
+            </div>
 
-    </section>
+        </section>
+
+    </main>
 
     <app-footer></app-footer>
 
