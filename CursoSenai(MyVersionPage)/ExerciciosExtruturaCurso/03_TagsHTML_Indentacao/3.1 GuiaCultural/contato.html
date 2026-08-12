@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="icon" href="assets/img/esfera_do_dragao.ico">
+</head>
+
+
+<body id="inicio">
+    <a href="#conteudo">Ir ao conteudo</a>
+
+    <section>
+        <header>
+            <nav>
+                <h1>
+                    Guia Cultural - Contato
+                </h1>
+                <a href="roteiros.html">Roteiros</a>
+                <a href="locais.html">Locais</a>
+                <a href="contato.html" aria-current="page">Contato</a>
+            </nav>
+        </header>
+        <hr>
+    </section>
+
+    <section>
+        <h2>
+            Fale Conosco
+        </h2>
+
+        <form>
+            <fieldset>
+                <label for="nome-completo">Nome Completo</label><br>
+                <input type="text" id="nome-completo" name="nome-completo" required><br>
+
+                <label for="e-mail">E-Mail</label><br>
+                <input type="email" name="e-mail" id="e-mail" required><br>
+
+                <label for="data-visita">Data da Visita</label><br>
+                <input type="date" name="data-visita" id="data-visita" required><br>
+
+                <label for="local-interesse">Local de Interesse</label><br>
+                <select name="local-interesse" id="local-interesse" required>
+                    <option value="">Selecione...</option>
+                    <option value="mirante">Mirante Gálatico</option>
+                    <option value="torre">Torre dos Feiticeiros</option>
+                    <option value="cupula">Cúpula Kame</option>
+                    <option value="dragao">Dragão Eterno</option>
+                </select><br>
+
+                <label for="mensagem">Mensagem</label><br>
+                <textarea name="mensagem" id="mensagem"></textarea><br>
+
+                <button>Enviar</button>
+
+
+
+            </fieldset>
+
+        </form>
+
+    </section>
+
+    <footer><br>
+        <small>
+            Exercício Tags HTML e Indentação Página Roteiros
+        </small>
+    </footer>
+
+</body>
+
+</html>

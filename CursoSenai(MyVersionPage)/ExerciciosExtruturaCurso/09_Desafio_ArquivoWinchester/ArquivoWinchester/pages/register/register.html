@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Arquivo Winchester</title>
+
+    <!-- Fonts Google -->
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tektur:wght@400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Links Biblioteca de Icones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Links Favicon -->
+    <link rel="shortcut icon"
+        href="/assets/favicon/img_favicon.png"
+        type="image/x-icon">
+
+    <!-- Links CSS -->
+    <link rel="stylesheet"
+        href="/components/btn-generic/btn-generic.css">
+    <link rel="stylesheet"
+        href="/pages/register/register.css">
+    <link rel="stylesheet"
+        href="/components/navbar/navbar.css">
+    <link rel="stylesheet"
+        href="/components/footer/footer.css">
+
+    <!-- Scripts JavaScript -->
+    <script src="/components/footer/footer.js"
+        defer></script>
+    <script src="/components/navbar/navbar.js"
+        defer></script>
+
+</head>
+
+<body>
+
+    <app-navbar></app-navbar>
+
+    <main class="card">
+        <h2 class="card-title">Cadastrar Caçador</h2>
+
+        <form class="form"
+            id="cadastro-form">
+            <div class="form-group">
+                <label for="nome">Nome do Caçador</label>
+                <input type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Ex: Bob Singer">
+            </div>
+
+            <div class="form-group ">
+                <label for="regiao">Região Base</label>
+                <select id="regiao"
+                    name="regiao">
+                    <option value=""
+                        disabled
+                        selected>Selecione...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="especialidade">Especialidade</label>
+                <select id="especialidade"
+                    name="especialidade">
+                    <option value=""
+                        disabled
+                        selected>Selecione...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="Ex: 16 99999-9999">
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password"
+                    id="senha"
+                    name="senha"
+                    placeholder="Digite sua senha">
+            </div>
+
+            <div class="form-group">
+                <label for="confirmar-senha">Confirmar Senha</label>
+                <input type="password"
+                    id="confirmar-senha"
+                    placeholder="Confirmar sua senha"
+                    name="confirmar-senha">
+            </div>
+
+            <div class="form-group">
+                <label for="anotacoes">Anotações</label>
+                <textarea id="anotacoes"
+                    name="anotacoes"
+                    rows="4"
+                    placeholder="Ex: Tenho dificuldade em rastrear anomalias"></textarea>
+            </div>
+
+            <p class="login-link">Já possui cadastro? <a href="#">Clique aqui</a></p>
+
+            <button type="button"
+                class="btn-cadastrar  btn-generic">
+                Cadastrar
+            </button>
+
+        </form>
+    </main>
+
+    <app-footer></app-footer>
+
+</body>
+
+</html>

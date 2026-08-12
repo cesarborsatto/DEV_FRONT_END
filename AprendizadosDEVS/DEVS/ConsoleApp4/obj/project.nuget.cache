@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ww7rHYJC5tc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cesar I3 10100F\\Desktop\\arquivos\\DEV FRONT-END\\Aprendizados DEVS\\DEVS\\ConsoleApp4\\ConsoleApp4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\baseline\\4.1.0\\baseline.4.1.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\commonservicelocator\\2.0.5\\commonservicelocator.2.0.5.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\dryioc.dll\\5.4.3\\dryioc.dll.5.4.3.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\imtools\\4.0.0\\imtools.4.0.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\lamarcodegeneration\\6.3.0\\lamarcodegeneration.6.3.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core\\4.1.1\\uno.core.4.1.1.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core.extensions\\4.1.1\\uno.core.extensions.4.1.1.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core.extensions.collections\\4.1.1\\uno.core.extensions.collections.4.1.1.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core.extensions.compatibility\\4.1.1\\uno.core.extensions.compatibility.4.1.1.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core.extensions.disposables\\4.1.1\\uno.core.extensions.disposables.4.1.1.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core.extensions.equality\\4.1.1\\uno.core.extensions.equality.4.1.1.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core.extensions.logging\\4.1.1\\uno.core.extensions.logging.4.1.1.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core.extensions.logging.singleton\\4.1.1\\uno.core.extensions.logging.singleton.4.1.1.nupkg.sha512",
+    "C:\\Users\\Cesar I3 10100F\\.nuget\\packages\\uno.core.extensions.threading\\4.1.1\\uno.core.extensions.threading.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

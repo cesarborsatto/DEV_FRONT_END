@@ -1,0 +1,21 @@
+{
+  "name": "cesar-theme",
+  "displayName": "Cesar-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CesarTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CesarTheme-color-theme.json"
+      }
+    ]
+  }
+}

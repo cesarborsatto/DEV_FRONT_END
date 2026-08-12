@@ -1,0 +1,203 @@
+{
+  "hunters": [
+    {
+      "id": "1d12",
+      "hunterName": "Dean Winchester",
+      "password": "cupiquisi",
+      "createdAt": "2005-09-13",
+      "baseRegion": "sudeste",
+      "specialty": "rastreio",
+      "phone": "11 99999-1111",
+      "notes": "Prefere resolver na estrada. Sempre com o Impala pronto."
+    },
+    {
+      "id": "8a3f",
+      "hunterName": "Sam Winchester",
+      "password": "cupiquisi",
+      "createdAt": "2005-09-13",
+      "baseRegion": "sudeste",
+      "specialty": "investigação",
+      "phone": "11 99999-2222",
+      "notes": "Focado em pesquisa, padrões e histórico de casos."
+    },
+    {
+      "id": "c4e1",
+      "hunterName": "Bobby Singer",
+      "password": "cupiquisi",
+      "createdAt": "2006-05-04",
+      "baseRegion": "sul",
+      "specialty": "outros",
+      "phone": "51 99999-3333",
+      "notes": "Contato de confiança. Ajuda com livros, investigação e recursos."
+    },
+    {
+      "id": "0b7d",
+      "hunterName": "Castiel",
+      "password": "cupiquisi",
+      "createdAt": "2008-09-18",
+      "baseRegion": "centro-oeste",
+      "specialty": "outros",
+      "phone": "61 99999-4444",
+      "notes": "Aparece do nada. Some do nada. Normal."
+    }
+  ],
+  "hunts": [
+    {
+      "id": "2f6a",
+      "title": "Bloody Mary (lenda do espelho)",
+      "createdBy": "Sam Winchester",
+      "editedBy": "",
+      "status": "investigando",
+      "difficulty": "dificil",
+      "city": "Toledo",
+      "state": "OH",
+      "entityId": "4a9e",
+      "latitude": 41.6525,
+      "longitude": -83.5375,
+      "date": "2005-10-11",
+      "summary": "Mortes após invocação no espelho. Vítimas ligadas a culpa e segredos. Caso encerrado após confrontar o espírito com a verdade."
+    },
+    {
+      "id": "9c10",
+      "title": "Metamorfo em St. Louis",
+      "createdBy": "Dean Winchester",
+      "editedBy": "",
+      "status": "resolvido",
+      "difficulty": "dificil",
+      "city": "St. Louis",
+      "state": "MO",
+      "entityId": "b2d7",
+      "latitude": 38.62722,
+      "longitude": -90.19778,
+      "date": "2005-10-18",
+      "summary": "Assassinatos com suspeito mudando de rosto. Caçada envolvendo identidade roubada e emboscada. Encerrado com eliminação do metamorfo."
+    },
+    {
+      "id": "d3b8",
+      "title": "Os Benders (ameaça humana)",
+      "createdBy": "Sam Winchester",
+      "editedBy": "",
+      "status": "arquivado",
+      "difficulty": "dificil",
+      "city": "Hibbing",
+      "state": "MN",
+      "entityId": "6c3f",
+      "latitude": 47.41722,
+      "longitude": -92.93833,
+      "date": "2006-02-14",
+      "summary": "Desaparecimentos sem padrão sobrenatural. Grupo humano predatório. Caso arquivado por envolver risco civil e rastros interrompidos."
+    },
+    {
+      "id": "7e21",
+      "title": "Assaltante metamorfo no banco",
+      "createdBy": "Dean Winchester",
+      "editedBy": "",
+      "status": "investigando",
+      "difficulty": "medio",
+      "city": "Milwaukee",
+      "state": "WI",
+      "entityId": "b2d7",
+      "latitude": 43.05,
+      "longitude": -87.95,
+      "date": "2007-01-25",
+      "summary": "Ocorrências em banco com comportamento anormal e mudança de aparência. Suspeita forte de metamorfo. Acompanhando pistas e testemunhas."
+    },
+    {
+      "id": "3b4c",
+      "title": "Hook Man (espírito vingativo no campus)",
+      "createdBy": "Sam Winchester",
+      "editedBy": "",
+      "status": "resolvido",
+      "difficulty": "medio",
+      "city": "Ankeny",
+      "state": "IA",
+      "entityId": "4a9e",
+      "latitude": 41.726788,
+      "longitude": -93.604283,
+      "date": "2005-10-25",
+      "summary": "Mortes com padrão moral e relatos de agressor invisível em ambiente universitário. Rastreamento levou a um espírito vingativo ligado a um caso antigo. Caso encerrado após localizar e neutralizar o vínculo do espírito."
+    },
+    {
+      "id": "a19f",
+      "title": "Distúrbios na Biblioteca Municipal",
+      "createdBy": "Castiel",
+      "editedBy": "",
+      "status": "investigando",
+      "difficulty": "medio",
+      "city": "Araraquara",
+      "state": "SP",
+      "entityId": "7d2a",
+      "latitude": -21.79389,
+      "longitude": -48.17583,
+      "date": "2025-12-29",
+      "summary": "Relatos de passos sempre no mesmo horário, luzes piscando e livros mudando de lugar sem explicação. Sem sinais de agressão, mas o padrão se repete como se o ambiente estivesse preso em um “loop”."
+    },
+    {
+      "id": "c3e8",
+      "title": "Falhas elétricas e objetos se movendo no laboratório",
+      "createdBy": "Sam Winchester",
+      "editedBy": "",
+      "status": "aberto",
+      "difficulty": "facil",
+      "city": "Matão",
+      "state": "SP",
+      "entityId": "9f1c",
+      "latitude": -21.603333,
+      "longitude": -48.365833,
+      "date": "2025-12-30",
+      "summary": "Equipamentos ligando sozinhos, gavetas abrindo e pequenos objetos caindo das bancadas. O local parece ter um foco específico (uma área/mesa), com atividade aumentando quando alguém fica sozinho."
+    }
+  ],
+  "entities": [
+    {
+      "id": "4a9e",
+      "name": "Espírito vingativo",
+      "createdBy": "Sam Winchester",
+      "updatedBy": "",
+      "counterMeasure": "Quebrar o vínculo e forçar o espírito a encarar a verdade do próprio crime",
+      "riskLevel": 3,
+      "image": "/assets/img/img-list-entities/img_espirito.png",
+      "commonSigns": "Espelhos como foco, queda brusca de temperatura, sangramento ocular, sensação de culpa intensa"
+    },
+    {
+      "id": "b2d7",
+      "name": "Metamorfo",
+      "createdBy": "Dean Winchester",
+      "updatedBy": "",
+      "counterMeasure": "Armas de prata e confirmação de identidade por sinais físicos inconsistentes",
+      "riskLevel": 4,
+      "image": "/assets/img/img-list-entities/img_metamorfo.png",
+      "commonSigns": "Testemunhas contraditórias, pessoa “igual” em locais diferentes, feridas que não batem, comportamento frio"
+    },
+    {
+      "id": "6c3f",
+      "name": "Ameaça humana organizada",
+      "createdBy": "Castiel",
+      "updatedBy": "",
+      "counterMeasure": "Investigação, vigilância, coleta de evidência e ação com extremo cuidado",
+      "riskLevel": 5,
+      "image": "/assets/img/img-list-entities/img_ameaca_humana.png",
+      "commonSigns": "Sumiços recorrentes, armadilhas, locais isolados, mentiras coordenadas, padrão de caça a pessoas"
+    },
+    {
+      "id": "9f1c",
+      "name": "Poltergeist",
+      "createdBy": "Sam Winchester",
+      "updatedBy": "",
+      "counterMeasure": "Localizar o foco (objeto/área) e purificar com sal e fogo; isolar o cômodo para evitar escalada",
+      "riskLevel": 2,
+      "image": "/assets/img/img-list-entities/img_poltergeist.png",
+      "commonSigns": "Objetos arremessados, portas batendo, ruídos secos na parede, vidros vibrando, eletrônicos falhando"
+    },
+    {
+      "id": "7d2a",
+      "name": "Assombração residual",
+      "createdBy": "Bobby Singer",
+      "updatedBy": "",
+      "counterMeasure": "Mapear o gatilho do fenômeno, isolar o local e encerrar o ciclo removendo o objeto ligado ao evento",
+      "riskLevel": 2,
+      "image": "/assets/img/img-list-entities/img_assombracao.png",
+      "commonSigns": "Ruídos repetitivos, luzes piscando, sensação de frio leve, passos em horários fixos, objetos mudando de lugar sem dano"
+    }
+  ]
+}

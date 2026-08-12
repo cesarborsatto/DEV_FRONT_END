@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Portão de Minas Tirith</title>
+
+    <link rel="icon" href="../../favicon/favicon.png">
+
+    <!-- Carrega o CSS -->
+    <link rel="stylesheet" href="login.css">
+
+    <script src="login.js" defer></script>
+</head>
+
+<body class="body-login">
+    <main tabindex="-1">
+        <!-- Titles -->
+        <!-- <div class="titles">
+            <h2>ENTRADA EM VALFENDA</h2>
+            <p>Informe suas credenciais para acessar o painel das expedições da Terra-média.</p>
+        </div> -->
+
+        <div class="align-elements">
+            <!-- Section figure -->
+            <section class="section-figure">
+                <figure class="section-figure__figure">
+                    <img src="/assets/img/img_login/img_left_login.png"
+                        alt="Ilustração das Portas de Durin em azul neon, com arco, árvores e inscrições élficas, usada como arte da tela de login das expedições da Terra-média.">
+                </figure>
+            </section>
+
+            <!-- Section form -->
+            <section class="section-form">
+                <form action="../register_company/register_company.html" method="get" class="section-form__form">
+                    <div class="section-form__img">
+                        <img src="/assets/img/img_login/img_form_login.png" alt="">
+                    </div>
+
+                    <fieldset class="section-form__fieldset">
+                        <legend>Acesso ao Conselho</legend>
+                        <h3>Acesso ao Conselho</h3>
+
+                        <div class="section-form__name">
+                            <label for="guardian-name">Nome do guardião*</label>
+                            <input type="text" id="guardian-name" name="guardianName" placeholder="Ex.: Beregond">
+                        </div>
+
+                        <div class="section-form__password">
+                            <label for="guardian-password">Senha*</label>
+                            <input type="password" id="guardian-password" name="password">
+                        </div>
+
+                        <div class="section-form__checkbox">
+                            <input type="checkbox" id="keep-logged-in" name="rememberMe">
+                            <label for="keep-logged-in">
+                                Manter-me conectado
+                            </label>
+                        </div>
+
+                        <div class="section-form__button">
+                            <button type="submit">Entrar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

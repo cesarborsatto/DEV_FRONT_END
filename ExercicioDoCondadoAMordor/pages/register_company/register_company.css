@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('/assets/img/img_register/img_background_register_company.png');
+    background-size: cover;
+}
+
+/* Skip link */
+.skip-link {
+    text-decoration: none;
+    position: fixed;
+    top: 4px;
+    left: 4px;
+    background-color: #F3E3C4;
+    color: #69553d;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    transform: translateY(-150%);
+}
+
+.skip-link:focus-visible {
+    transform: translate(0);
+    outline: 2px solid #B6874C;
+}
+
+/* Main layout */
+.main-layout {
+    height: calc(100vh - 20px);
+    background-color: rgba(34, 61, 80, 0.5);
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.main-layout>h1 {
+    margin: 36px 0 8px;
+    text-align: center;
+    color: #f4bc03;
+}
+
+@media (width >=768px) {
+    .main-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-layout>h1 {
+        text-align: start;
+        font-size: 2.3rem;
+        margin: 8px 0;
+    }
+}
+
+@media (width >=992px) {
+    .main-layout {
+        margin-left: 200px;
+    }
+
+    .main-layout>h1 {
+        margin-left: 10px;
+    }
+}
+
+/* Section form */
+.section-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (width >=992px) {
+    .section-form {
+        margin-left: 10px;
+    }
+}
+
+.section-form>h2 {
+    color: #F7E3A8;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+@media (width >=768px) {
+    .section-form>h2 {
+        font-size: 1.6rem;
+    }
+}
+
+.section-form__form {
+    outline: 1px solid #F4BC03;
+    background-color: rgba(43, 74, 95, 0.8);
+    border-radius: 4px;
+    padding: 8px;
+    gap: 8px;
+    display: grid;
+    grid-template-areas:
+        'company-name'
+        'leader'
+        'group'
+        'specialty'
+        'company-status'
+        'company-notes'
+        'buttons';
+    width: 94%;
+}
+
+@media (width >=768px) {
+    .section-form__form {
+        grid-template-areas:
+            'company-name leader group'
+            'specialty specialty company-status'
+            'company-notes company-notes company-notes'
+            'buttons buttons buttons';
+        padding: 16px;
+    }
+}
+
+.section-form__company-name {
+    grid-area: company-name;
+}
+
+.section-form__leader-name {
+    grid-area: leader;
+}
+
+.section-form__groud-size {
+    grid-area: group;
+}
+
+.section-form__specialty {
+    grid-area: specialty;
+}
+
+.section-form__company-status {
+    grid-area: company-status;
+}
+
+.section-form__company-notes {
+    grid-area: company-notes;
+}
+
+.section-form__buttons {
+    grid-area: buttons;
+    text-align: center;
+}
+
+.section-form__buttons>button {
+    height: 32px;
+    font-size: 1rem;
+    margin-top: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.section-form__buttons>button[type="submit"] {
+    background-color: #F4BC03;
+    color: #1A1305;
+    border: 1px solid #D89E02;
+    width: 55%;
+}
+
+.section-form__buttons>button[type="submit"]:hover {
+    background-color: #D89E02;
+    transition: 0.2s;
+}
+
+.section-form__buttons>button[type="reset"] {
+    background-color: transparent;
+    color: #F4BC03;
+    border: 1px solid #F4BC03;
+    width: 43%;
+}
+
+.section-form__buttons>button[type="reset"]:hover {
+    background-color: #F4BC03;
+    color: #1A1305;
+    transition: 0.2s;
+}
+
+@media (width >=768px) {
+    .section-form__buttons>button[type="submit"],
+    .section-form__buttons>button[type="reset"] {
+        width: 200px;
+        height: 40px;
+    }
+}
+
+.section-form__style-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-form__style-field>label {
+    color: #F7F9FB;
+    font-size: 1.1rem;
+}
+
+.section-form__style-field>input,
+.section-form__style-field>select {
+    background-color: #E4EDF4;
+    outline: none;
+    height: 24px;
+    border: 2px solid #B5C4D1;
+    border-radius: 4px;
+    padding: 1px 2px;
+}
+
+.section-form__style-field>select {
+    height: 30px;
+}
+
+.section-form__style-field>input[type="date"] {
+    height: 24px;
+}
+
+.section-form__style-field>textarea {
+    background-color: #E4EDF4;
+    border: none;
+    outline: none;
+    height: 44px;
+    border-radius: 4px;
+}
+
+.section-form__style-field>input:focus-visible,
+.section-form__style-field>select:focus-visible,
+.section-form__style-field>textarea:focus-visible {
+    outline: 1px solid #7BD1FF;
+}
+
+
+.section-form__style-field>select::placeholder,
+.section-form__style-field>input::placeholder {
+    color: #7F8D99;
+}

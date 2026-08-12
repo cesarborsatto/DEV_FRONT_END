@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\aluno\\desktop\\nova pasta\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\aluno\\desktop\\nova pasta\\consoleapp1\\consoleapp1\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\aluno\\desktop\\nova pasta\\consoleapp1\\consoleapp1\\infectado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\infectado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\aluno\\desktop\\nova pasta\\consoleapp1\\consoleapp1\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\personagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\aluno\\desktop\\nova pasta\\consoleapp1\\consoleapp1\\sobrevivente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\sobrevivente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\aluno\\desktop\\nova pasta\\consoleapp1\\consoleapp1\\icombatente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\icombatente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\aluno\\desktop\\nova pasta\\consoleapp1\\consoleapp1\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC5434AF-C1EB-451E-A5ED-0C318EFC1875}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estacao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Estacao.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Estacao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Estacao.cs",
+              "RelativeToolTip": "ConsoleApp1\\Estacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T23:01:02.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Infectado.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Infectado.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Infectado.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Infectado.cs",
+              "RelativeToolTip": "ConsoleApp1\\Infectado.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T22:54:48.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sobrevivente.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Sobrevivente.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Sobrevivente.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Sobrevivente.cs",
+              "RelativeToolTip": "ConsoleApp1\\Sobrevivente.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T22:34:44.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Arma.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Arma.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Arma.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Arma.cs",
+              "RelativeToolTip": "ConsoleApp1\\Arma.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T22:31:16.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICombatente.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\ICombatente.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\ICombatente.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\ICombatente.cs",
+              "RelativeToolTip": "ConsoleApp1\\ICombatente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T22:26:59.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personagem.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Personagem.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Personagem.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Personagem.cs",
+              "RelativeToolTip": "ConsoleApp1\\Personagem.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T22:15:35.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T22:02:19.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

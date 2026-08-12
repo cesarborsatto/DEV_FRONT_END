@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Tektur", sans-serif;
+}
+
+body {
+    background: #bbbaba;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    z-index: 1;
+
+}
+
+
+
+main {
+    flex: 1;
+}
+
+h1 {
+    padding-top: 12px;
+    text-align: center;
+}
+
+.card-status {
+    border-radius: 8px;
+    width: 90%;
+    margin: 8px auto 20px;
+    box-shadow: 2px 2px 10px 1px #10BEE940;
+    background: #FFFFFFC7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    max-width: 400px;
+}
+
+.img-cards-status {
+    display: none;
+    width: 70px;
+    height: 60px;
+}
+
+.card-status__label {
+    color: #000000;
+}
+
+.card-status__valor {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1e1f1fd8;
+}
+
+.ultimas-cacadas {
+    border-radius: 8px;
+    margin: 8px auto 20px;
+    box-shadow: 2px 2px 10px 1px #10BEE940;
+    background: #FFFFFFC7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    max-width: 400px;
+    height: 220px;
+}
+
+.h2-text {
+    color: #213E73;
+    padding-bottom: 30px;
+}
+
+table {
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #0000004a;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 200px;
+}
+
+th {
+    width: 90%;
+    border-collapse: separate;
+    border-bottom: 1px solid #0000004a;
+    border-spacing: 0;
+    overflow: hidden;
+    padding: 2px 4px;
+}
+
+td {
+    padding: 2px 4px;
+    vertical-align: center;
+    text-align: center;
+}
+
+.badge-difficulty {
+    border-radius: 12px;
+    padding: 1px 8px;
+    border: 1px solid #5f0e0e4a;
+    background: #e91010fb;
+    box-shadow: 1px 1px 5px 1px #300d0db0;
+    color: #ffffffe6;
+}
+
+.btn-detalhe {
+    border: none;
+    cursor: pointer;
+}
+
+.icon-details {
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 1px 5px 1px #300d0db0;
+    border-radius: 100%;
+}
+
+.icon-details:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px 1px #300d0db0;
+
+}
+
+.container-card-details {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 400px;
+    max-height: 100vh;
+    z-index: -1;
+}
+
+.index-priority {
+    z-index: 9999;
+}
+
+.btn-fechar {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #666;
+    box-shadow: 4px 3px 4px 1px #10BEE940;
+}
+
+.btn-fechar:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 4px 3px 4px 1px #21212140;
+
+}
+
+.card-info-details {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 8px;
+    border: 2px solid #10bee96f;
+    box-shadow: 1px 10px 100px 200px #667074d7;
+    width: 90%;
+    margin: 12px 4px;
+    background: whitesmoke;
+    gap: 8px;
+    display: none;
+    height: 95%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 9999;
+}
+
+/* Largura da barra de rolagem dentro do card */
+.card-info-details::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Fundo da barra (Trilho) */
+.card-info-details::-webkit-scrollbar-track {
+    background: #999292;
+    border-radius: 0 8px 8px 0;
+}
+
+/* O ponteiro/polegar da barra */
+.card-info-details::-webkit-scrollbar-thumb {
+    background: #0b8cb0;
+    /* Cor azul igual à sua borda */
+    border-radius: 10px;
+    /* Deixa a ponta arredondada */
+}
+
+/* Cor do polegar ao passar o mouse */
+.card-info-details::-webkit-scrollbar-thumb:hover {
+    background: #10bee9;
+    /* Tom mais escuro de azul ao interagir */
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2px 8px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px 4px;
+}
+
+.card-info-details--off {
+    display: flex;
+}
+
+strong {
+    padding-right: 4px;
+}
+
+.description,
+.details {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+@media (width >=540px) {
+
+    h1 {
+        padding: 12px 0 32px 0;
+        text-align: center;
+    }
+
+    .cards-status {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 110px 110px;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 8px 0;
+    }
+
+    .card-status {
+        width: 250px;
+                position: relative;
+    }
+
+    .img-cards-status {
+        position: absolute;
+        bottom: 16px;
+        right: 12px;
+        display: unset;
+        width: 60px;
+        height: 50px;
+    }
+
+    .ultimas-cacadas {
+        max-width: 520px;
+    }
+
+    th {
+        border-spacing: 100px;
+        padding: 2px 12px;
+    }
+
+    .container-card-details {
+
+        width: 100vw;
+        height: 100vh;
+        /* max-height: 90%;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+   
+        overflow-y: auto;
+        overflow-x: hidden; */
+
+    }
+
+    .card-info-details {
+        width: 90%;
+        height: auto;
+        max-height: 600px;
+    }
+}

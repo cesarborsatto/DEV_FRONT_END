@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\ProgramacaoOrientadaObjetos\\ProgramacaoOrientadaObjetos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2D07C0-44A3-4FAF-A399-F4EC96E7D4DE}|ProgramacaoOrientadaObjetos.csproj|c:\\users\\cesar i3 10100f\\desktop\\devs\\programacaoorientadaobjetos\\programacaoorientadaobjetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2D07C0-44A3-4FAF-A399-F4EC96E7D4DE}|ProgramacaoOrientadaObjetos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2D07C0-44A3-4FAF-A399-F4EC96E7D4DE}|ProgramacaoOrientadaObjetos.csproj|c:\\users\\cesar i3 10100f\\desktop\\devs\\programacaoorientadaobjetos\\programacaoorientadaobjetos\\sobrevivente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2D07C0-44A3-4FAF-A399-F4EC96E7D4DE}|ProgramacaoOrientadaObjetos.csproj|solutionrelative:sobrevivente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2D07C0-44A3-4FAF-A399-F4EC96E7D4DE}|ProgramacaoOrientadaObjetos.csproj|c:\\users\\cesar i3 10100f\\desktop\\devs\\programacaoorientadaobjetos\\programacaoorientadaobjetos\\explorador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2D07C0-44A3-4FAF-A399-F4EC96E7D4DE}|ProgramacaoOrientadaObjetos.csproj|solutionrelative:explorador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Explorador.cs",
+              "DocumentMoniker": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\ProgramacaoOrientadaObjetos\\ProgramacaoOrientadaObjetos\\Explorador.cs",
+              "RelativeDocumentMoniker": "Explorador.cs",
+              "ToolTip": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\ProgramacaoOrientadaObjetos\\ProgramacaoOrientadaObjetos\\Explorador.cs",
+              "RelativeToolTip": "Explorador.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:29:56.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sobrevivente.cs",
+              "DocumentMoniker": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\ProgramacaoOrientadaObjetos\\ProgramacaoOrientadaObjetos\\Sobrevivente.cs",
+              "RelativeDocumentMoniker": "Sobrevivente.cs",
+              "ToolTip": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\ProgramacaoOrientadaObjetos\\ProgramacaoOrientadaObjetos\\Sobrevivente.cs",
+              "RelativeToolTip": "Sobrevivente.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:29:11.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\ProgramacaoOrientadaObjetos\\ProgramacaoOrientadaObjetos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\ProgramacaoOrientadaObjetos\\ProgramacaoOrientadaObjetos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:27:39.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "expedicoes": [
+    {
+      "nomeExpedicao": "Vigília sobre o Norte",
+      "regiaoOrigem": "Eriador",
+      "regiaoDestino": "Condado",
+      "objetivoMissao": "Proteger as fronteiras do Condado de incursões de orcs vindos do norte.",
+      "nivelRisco": "Médio",
+      "statusInicial": "Em Andamento",
+      "dataPartida": "2025-09-01",
+      "companhia": {
+        "id": "cr9b",
+        "nomeCompanhia": "Sentinelas da Floresta",
+        "nomeLider": "Aragorn, filho de Arathorn",
+        "tamanhoGrupo": 12,
+        "especialidade": "Combate à distância e movimentação ágil em ambiente florestal.",
+        "statusCompanhia": "Em Missão",
+        "observacoesCompanhia": "Grupo de elite dos elfos da floresta, especialista em emboscadas silenciosas."
+      },
+      "id": "5rtf"
+    },
+    {
+      "id": "42fr",
+      "nomeExpedicao": "Trilhas do Oeste",
+      "regiaoOrigem": "Gondor",
+      "regiaoDestino": "Eriador",
+      "objetivoMissao": "Reconhecer antigas estradas e estabelecer rotas seguras para mensageiros.",
+      "nivelRisco": "Baixo",
+      "statusInicial": "Planejada",
+      "dataPartida": "2025-08-18",
+      "observacoesExpedicao": "Missão voltada a mapeamento e coleta de informações sobre as rotas do norte.",
+      "companhia": {
+        "id": "6995",
+        "nomeCompanhia": "Batedores de Eriador",
+        "nomeLider": "Halbarad, dos Dúnedain",
+        "tamanhoGrupo": 16,
+        "especialidade": "Reconhecimento silencioso e observação de longo alcance.",
+        "statusCompanhia": "Disponível",
+        "observacoesCompanhia": "Companhia de batedores acostumada a viajar sem ser detectada."
+      }
+    },
+    {
+      "id": "35f2",
+      "nomeExpedicao": "Sussurros na Floresta das Trevas",
+      "regiaoOrigem": "Rohan",
+      "regiaoDestino": "Floresta das Trevas",
+      "objetivoMissao": "Investigar o aumento da sombra e localizar movimentações de criaturas de Sauron.",
+      "nivelRisco": "Alto",
+      "statusInicial": "Planejada",
+      "dataPartida": "2025-10-03",
+      "observacoesExpedicao": "Expedição de alto risco, com forte presença de criaturas nas sombras da floresta.",
+      "companhia": {
+        "id": "cr9b",
+        "nomeCompanhia": "Sentinelas da Floresta",
+        "nomeLider": "Legolas, filho de Thranduil",
+        "tamanhoGrupo": 10,
+        "especialidade": "Combate à distância e movimentação ágil em ambiente florestal.",
+        "statusCompanhia": "Em Missão",
+        "observacoesCompanhia": "Grupo de elite dos elfos da floresta, especialista em emboscadas silenciosas."
+      }
+    }
+  ],
+  "companhias": [
+    {
+      "id": "cb9b",
+      "nomeCompanhia": "Guardiões do Condado",
+      "nomeLider": "Aragorn, filho de Arathorn",
+      "tamanhoGrupo": 12,
+      "especialidade": "Vigilância e rastreamento em longas distâncias.",
+      "statusCompanhia": "Em Missão",
+      "observacoesCompanhia": "Companhia de patrulheiros escolhidos para proteger discretamente o Condado."
+    },
+    {
+      "id": "6995",
+      "nomeCompanhia": "Batedores de Eriador",
+      "nomeLider": "Halbarad, dos Dúnedain",
+      "tamanhoGrupo": 16,
+      "especialidade": "Reconhecimento silencioso e observação de longo alcance.",
+      "statusCompanhia": "Em Missão",
+      "observacoesCompanhia": "Companhia de batedores acostumada a viajar sem ser detectada."
+    },
+    {
+      "id": "cr9b",
+      "nomeCompanhia": "Sentinelas da Floresta",
+      "nomeLider": "Legolas, filho de Thranduil",
+      "tamanhoGrupo": 10,
+      "especialidade": "Combate à distância e movimentação ágil em ambiente florestal.",
+      "statusCompanhia": "Em Missão",
+      "observacoesCompanhia": "Grupo de elite dos elfos da floresta, especialista em emboscadas silenciosas."
+    }
+  ],
+  "guardioes": [
+    {
+      "id": "1",
+      "nomeGuardiao": "beregond",
+      "senha": "minas123"
+    },
+    {
+      "id": "2",
+      "nomeGuardiao": "gandalf o cabuloso",
+      "senha": "condado123"
+    },
+    {
+      "id": "3",
+      "nomeGuardiao": "aragorn",
+      "senha": "gondor123"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

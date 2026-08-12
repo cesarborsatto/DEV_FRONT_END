@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Arquivo Winchester</title>
+
+    <!-- Fonts Google -->
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tektur:wght@400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Links Biblioteca de Icones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Links Favicon -->
+    <link rel="shortcut icon"
+        href="/assets/favicon/img_favicon.png"
+        type="image/x-icon">
+
+    <!-- Links CSS -->
+    <link rel="stylesheet"
+        href="/components/btn-generic/btn-generic.css">
+    <link rel="stylesheet"
+        href="home.css">
+    <link rel="stylesheet"
+        href="/components/navbar/navbar.css">
+    <link rel="stylesheet"
+        href="/components/footer/footer.css">
+
+    <!-- Scripts JavaScript -->
+    <script src="/pages/home/home.js"></script>
+    <script src="/components/footer/footer.js"
+        defer></script>
+    <script src="/components/navbar/navbar.js"
+        defer></script>
+
+</head>
+
+
+<body>
+
+    <app-navbar></app-navbar>
+
+    <main class="main">
+
+        <div class="painel-bunker">
+            <h1>Painel Bunker</h1>
+
+            <section class="cards-status">
+
+                <div class="card-status">
+                    <p class="card-status__label">Casos Abertos</p>
+                    <span class="card-status__valor">0</span>
+                    <img class="img-cards-status"
+                        src="/assets/img/img-home/img_open_cases.png"
+                        alt="">
+                </div>
+
+                <div class="card-status">
+                    <p class="card-status__label">Casos Investigando</p>
+                    <span class="card-status__valor">0</span>
+                    <img class="img-cards-status"
+                        src="/assets/img/img-home/img_cases_under_investigation.png"
+                        alt="">
+                </div>
+
+                <div class="card-status">
+                    <p class="card-status__label">Casos Resolvidos</p>
+                    <span class="card-status__valor">0</span>
+                    <img class="img-cards-status"
+                        src="/assets/img/img-home/img_solved_cases.png"
+                        alt="">
+                </div>
+
+                <div class="card-status">
+                    <p class="card-status__label">Casos Arquivados</p>
+                    <span class="card-status__valor">0</span>
+                    <img class="img-cards-status"
+                        src="/assets/img/img-home/img_archived_cases.png"
+                        alt="">
+                </div>
+
+            </section>
+
+            <section class="ultimas-cacadas">
+
+                <h2 class="h2-text">Últimas Caçadas</h2>
+
+                <table class="tabela-cacadas">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Dificuldade</th>
+                            <th>Detalhe</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>EMF disparando no porão</td>
+                            <td>
+                                <span class="badge-difficulty badge-difficulty--hard">Difícil</span>
+                            </td>
+                            <td>
+                                <button class="btn-detalhe"
+                                    aria-label="Ver detalhe">
+                                    <img class="icon-details"
+                                        src="/assets/img/img-home/img_more_details.png"
+                                        alt="">
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="container-card-details">
+                <div class="card-info-details">
+                    <div class="details">
+                        <p><strong>Tipo:</strong></p>
+                        <p>Aparição</p>
+                    </div>
+
+                    <div class="details">
+                        <p><strong>Cidade:</strong></p>
+                        <p>Matão</p>
+                    </div>
+
+                    <div class="details">
+                        <p><strong>Data:</strong></p>
+                        <data value="2025-06-18">18/06/2025</data>
+                    </div>
+
+                    <div class="details description">
+                        <p><strong>Descrição:</strong></p>
+                        <p>Da pacata sombra dos condados verdes até a ruína cinzenta sob o Olho sem Pálpebra, cada passo
+                            da comitiva pesava como o próprio destino da Terra-média. Pequenas pegadas moldaram a
+                            história onde reis fracassaram, provando que a coragem mais pura costuma morar nas criaturas
+                            mais improváveis. Das colinas de Moinho do Pântano às forjas incandescentes da Montanha da
+                            Perdição, a jornada terminou onde a esperança venceu a escuridão.
+
+
+                        </p>
+                    </div>
+
+                    <button class="btn-fechar">&times;</button>
+                </div>
+
+
+            </section>
+
+        </div>
+    </main>
+
+    <app-footer></app-footer>
+
+</body>
+
+</html>

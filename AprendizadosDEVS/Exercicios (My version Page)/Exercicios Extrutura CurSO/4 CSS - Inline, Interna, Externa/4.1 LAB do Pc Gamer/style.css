@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+.skip-link {
+  background-color: #fffbeb;
+  border: 1px solid #f49e0b;
+  border-radius: 4px;
+  padding: 4px;
+  margin: 0;
+  text-decoration: none;
+  color: #7c2d12;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  transform: translateY(-150%);
+  transition: 1s;
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+  transition: 1s;
+}
+
+header {
+  background-color: #0d3b66;
+  background: radial-gradient(circle, #3c404e, #0d3b66);
+  padding: 12px;
+}
+
+h1 {
+  margin: 0;
+  color: rgba(255, 251, 235, .9);
+}
+
+.nav-style>a {
+  text-decoration: none;
+  color: rgba(255, 251, 235, .9);
+  margin: 0;
+  border: 1px;
+  border-radius: 4px;
+  padding: 4px;
+
+}
+
+.nav-style>a[aria-current="page"] {
+  background-color: rgba(255, 255, 235, .19);
+
+}
+
+.imagem {
+  max-width: 1200px;
+}
+
+.container {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  padding: 12px;
+  margin: 12px;
+}
+
+h2 {
+  margin: 0;
+  color: rgb(30, 29, 29);
+}
+
+
+
+
+img,
+.text-button {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+
+}
+
+.button {
+  background-color: #cdd4db;
+  padding: 8px;
+  border: 1px solid #585a5c91;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .2s;
+  text-decoration: none;
+  color: rgb(35, 34, 34);
+}
+
+.button>a {
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: #a4adb7;
+
+}
+
+
+footer {
+  text-align: center;
+}
+
+.conteudo {
+  color: #47484a00;
+  margin: 0 auto;
+
+}

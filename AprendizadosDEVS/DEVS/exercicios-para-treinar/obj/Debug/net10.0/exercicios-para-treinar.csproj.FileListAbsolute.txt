@@ -1,0 +1,14 @@
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\bin\Debug\net10.0\exercicios-para-treinar.exe
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\bin\Debug\net10.0\exercicios-para-treinar.deps.json
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\bin\Debug\net10.0\exercicios-para-treinar.runtimeconfig.json
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\bin\Debug\net10.0\exercicios-para-treinar.dll
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\bin\Debug\net10.0\exercicios-para-treinar.pdb
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\exercicios-para-treinar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\exercicios-para-treinar.AssemblyInfoInputs.cache
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\exercicios-para-treinar.AssemblyInfo.cs
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\exercicios-para-treinar.csproj.CoreCompileInputs.cache
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\exercicios-para-treinar.dll
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\refint\exercicios-para-treinar.dll
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\exercicios-para-treinar.pdb
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\exercicios-para-treinar.genruntimeconfig.cache
+C:\Users\Cesar I3 10100F\Desktop\DEVS\exercicios-para-treinar\obj\Debug\net10.0\ref\exercicios-para-treinar.dll

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+  <title>Arquivo Winchester</title>
+
+  <!-- Fonts Google -->
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tektur:wght@400..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Links Biblioteca de Icones -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Links Favicon -->
+  <link rel="shortcut icon"
+    href="/assets/favicon/img_favicon.png"
+    type="image/x-icon">
+
+  <!-- Links CSS -->
+  <link rel="stylesheet"
+    href="/components/btn-generic/btn-generic.css">
+  <link rel="stylesheet"
+    href="map.css">
+  <link rel="stylesheet"
+    href="/components/navbar/navbar.css">
+  <link rel="stylesheet"
+    href="/components/footer/footer.css">
+
+  <!-- Scripts JavaScript -->
+  <script src="/components/footer/footer.js"
+    defer></script>
+  <script src="/components/navbar/navbar.js"
+    defer></script>
+
+</head>
+
+
+
+<body>
+
+  <app-navbar></app-navbar>
+
+
+  <main>
+
+    <figure class="container-img-filter">
+      <img class="img-filter"
+        src="/assets/img/img-map/img_filter.png"
+        alt="Imagem do icone de aplicar filtros">
+    </figure>
+
+    <section class="filter-card filter-card--off">
+
+      <h2>Filtros</h2>
+
+      <form class="container-form">
+        <section class="form">
+          <div class="form-group">
+            <label for="entidade">Entidade</label>
+            <select id="entidade"
+              name="entidade">
+              <option value="">Selecione...</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="dificuldade">Dificuldade</label>
+            <select id="dificuldade"
+              name="dificuldade">
+              <option value="">Selecione...</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="status">Status</label>
+            <select id="status"
+              name="status">
+              <option value="">Selecione...</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cidade">Cidade</label>
+            <select id="cidade"
+              name="cidade">
+              <option value="">Selecione...</option>
+            </select>
+          </div>
+        </section>
+      </form>
+
+      <div class="form-group ">
+        <button class="buttons-filter btn-generic"
+          type="submit"
+          class="btn btn-aplicar">Aplicar</button>
+        <button class="buttons-filter btn-generic"
+          type="button"
+          class="btn btn-limpar">Limpar</button>
+      </div>
+    </section>
+
+    <h1>Caçadas</h1>
+
+    <div>
+
+         <nav class="sidebar-nav">
+            <a href="/pages/hunts/register-hunts/register-hunts.html"
+                class="nav-link1  btn-generic">Nova Caçada</a>
+            <a href="/pages/hunts/list-hunts/list-hunts.html"
+                class="nav-link2  btn-generic">Ver Caçadas</a>
+            <a href="/pages/hunts/map/map.html"
+                class="nav-link3  btn-generic">Mapa</a>
+        </nav>
+
+      <div class="card">
+        <h2>Mapa de Caçadas</h2>
+
+        <div class="map">
+          <img class="img-map"
+            src="/assets/img/img-map/img_map.PNG"
+            alt="Imagem do Mapa">
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <app-footer></app-footer>
+
+</body>
+
+</html>

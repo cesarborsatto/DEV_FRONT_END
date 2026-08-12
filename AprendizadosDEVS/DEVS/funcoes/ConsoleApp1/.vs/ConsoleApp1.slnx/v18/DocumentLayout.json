@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\funcoes\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A02B09CD-798A-4CA2-BB98-FF1CFA4386E5}|ConsoleApp1.csproj|c:\\users\\cesar i3 10100f\\desktop\\devs\\funcoes\\consoleapp1\\ativarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02B09CD-798A-4CA2-BB98-FF1CFA4386E5}|ConsoleApp1.csproj|solutionrelative:ativarmarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02B09CD-798A-4CA2-BB98-FF1CFA4386E5}|ConsoleApp1.csproj|c:\\users\\cesar i3 10100f\\desktop\\devs\\funcoes\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02B09CD-798A-4CA2-BB98-FF1CFA4386E5}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02B09CD-798A-4CA2-BB98-FF1CFA4386E5}|ConsoleApp1.csproj|c:\\users\\cesar i3 10100f\\desktop\\devs\\funcoes\\consoleapp1\\respiracaodocodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02B09CD-798A-4CA2-BB98-FF1CFA4386E5}|ConsoleApp1.csproj|solutionrelative:respiracaodocodigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RespiracaoDoCodigo.cs",
+              "DocumentMoniker": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\funcoes\\ConsoleApp1\\RespiracaoDoCodigo.cs",
+              "RelativeDocumentMoniker": "RespiracaoDoCodigo.cs",
+              "ToolTip": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\funcoes\\ConsoleApp1\\RespiracaoDoCodigo.cs",
+              "RelativeToolTip": "RespiracaoDoCodigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T23:01:02.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AtivarMarca.cs",
+              "DocumentMoniker": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\funcoes\\ConsoleApp1\\AtivarMarca.cs",
+              "RelativeDocumentMoniker": "AtivarMarca.cs",
+              "ToolTip": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\funcoes\\ConsoleApp1\\AtivarMarca.cs",
+              "RelativeToolTip": "AtivarMarca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:59:17.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\funcoes\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Cesar I3 10100F\\Desktop\\DEVS\\funcoes\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:57:28.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

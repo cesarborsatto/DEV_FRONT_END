@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trilha Heroica CSS</title>
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="shortcut icon" href="Assets/Img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <a href="" class="skip-link">Pular Menu de Navegação</a>
+
+  <header>
+    <h1 class="">Trilha Heroica <span class="">CSS</span></h1>
+    <p>Uma jornada prática para dominar <em>Flexbox</em> e <em>Grid</em>.</p>
+    <img src="Assets/Img/logo.svg" alt="">
+  </header>
+
+  <main tabindex="-1">
+
+    <section class="sections">
+      <h2>Missões de Layout</h2>
+      <p class="text-missao-layout">Pratique conceitos essenciais de Flexbox e Grid</p>
+
+      <!-- ---------------------------------------------------------- -->
+      <div class="container-hora-do-jogo">
+        <p>
+          <strong>Hora do Jogo!</strong>
+          Abra os desafios oficiais:
+        </p>
+
+        <div class="button-container-jogo">
+          <a href="https://codingfantasy.com/games/flexboxadventure" target="_blank" rel="noopener noreferrer">
+            <button class="button-jogar">Jogar Flexbox Adventure</button>
+          </a>
+
+          <a href="https://codingfantasy.com/games/css-grid-attack" target="_blank" rel="noopener noreferrer">
+            <button class="button-jogar">Jogar CSS Grid Attack</button>
+          </a>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------- -->
+
+      <!-- ---------------------------------------------------------- -->
+      <div class="container-cards">
+        <article class="card">
+          <h3>Direção e Eixo</h3>
+
+          <img src="Assets/Img/direcao_e_eixo.png"
+            alt="Diagrama de flexbox com eixo principal e cruzado, mostrando a direção dos itens.">
+
+          <p class="text__card">
+            Explore display: flex com flex-direction e conheça o eixo principal e cruzado.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Alinhamento</h3>
+
+          <img src="Assets/Img/alinhamento.png"
+            alt="Distribuição e centralização de itens usando justify-content e align-items.">
+
+          <p class="text__card">
+            Brinque com justify-content e align-items para distribuir e centralizar conteúdo.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Malha Responsiva</h3>
+
+          <img src="Assets/Img/malha_responsiva.png"
+            alt="Grade CSS com gap e colunas fr/auto/minmax para dimensionamento responsivo.">
+
+          <p class="text__card">
+            Crie grades com display: grid, use gap e combine fr (fração), auto e minmax().
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Áreas Nomeadas</h3>
+
+          <img src="Assets/Img/areas_nomeadas.png"
+            alt="Layout com áreas nomeadas do grid; blocos reposicionados apenas via CSS.">
+
+          <p class="text__card">
+            Controle a página com grid-template-areas e reposicione blocos apenas com CSS.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Dimensionamento Flex</h3>
+
+          <img src="Assets/Img/dimensionamento_flex.png"
+            alt="Itens flex com tamanhos variados usando flex-grow, flex-shrink e flex-basis.">
+
+          <p class="text__card">
+            Ajuste o tamanho dos itens com flex-grow, flex-shrink e flex-basis. Ex.: flex: 1 1 200px.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Dimensionamento Grid</h3>
+
+          <img src="Assets/Img/dimensionamento_grid.png"
+            alt="Grade fluida com colunas que se ajustam via repeat(auto-fit, minmax(200px, 1fr)).">
+
+          <p class="text__card">
+            Faça grades fluídas com repeat() e minmax(). Ex.: grid-template-columns: repeat(auto-fit, minmax(200px,
+            1fr)).
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- ---------------------------------------------------------- -->
+
+    <section class="sections">
+      <h2>Habilidades do Aventureiro</h2>
+
+      <div class="container-habilidades-do-aventureiro">
+        <figure>
+          <img class="img__habilidade-do-aventureiro" src="Assets/Img/habilidades_do_aventureiro.png"
+            alt="Aventureiro com espada ao lado de painel 'Habilidades do Aventureiro' com ícones: Flex (direção, wrap, alinhamento), Grid (colunas/linhas), RWD (mobile-first/media queries), Acessibilidade (semântica/foco) e Boas práticas (CSS limpo/reuso).">
+          <div class="figcaption">
+            <figcaption>Herói do Layout</figcaption>
+          </div>
+        </figure>
+
+        <div class="list">
+          <ul>
+            <li>
+              <strong>Flexbox:</strong> direção, wrap, espaçamento e alinhamento.
+            </li>
+
+            <li>
+              <strong>Grid:</strong> colunas/linhas, áreas e auto placement.
+            </li>
+
+            <li>
+              <strong>Responsividade:</strong> mobile-first e media queries.
+            </li>
+
+            <li>
+              <strong>Acessibilidade:</strong> hierarquia semântica e foco visível.
+            </li>
+
+            <li>
+              <strong>Boas práticas:</strong> CSS limpo, reuso e consistência.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------------------------------- -->
+
+    <section class="sections-jornada">
+      <h2>Registro da Jornada</h2>
+      <p class="text-registro-jornada">Todo herói ou heroína deixa evidências. Cole aqui os dois troféus da missão: um
+        print de cada jogo.</p>
+
+      <div class="container-registro-jornada">
+        <figure>
+          <div class="prints">
+            <img src="Assets/Img/Captura_de_tela_0001.png"
+              alt="Print final do Flexbox Adventure mostrando a conclusão do desafio.">
+          </div>
+
+          <figcaption>
+            <p>
+              <strong>Relíquia #1</strong> — Flexbox Adventure
+            </p>
+            <p>
+              Conquista Flex — vitória no Flexbox Adventure (flex conquistado &#x2728;)
+            </p>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <div class="prints">
+            <img src="Assets/Img/Captura_de_tela_0002.png"
+              alt="Print final do CSS Grid Attack com a vitória do jogador.">
+          </div>
+
+          <figcaption>
+            <p>
+              <strong>Relíquia #2</strong> — CSS Grid Attack
+            </p>
+            <p>
+              Conquista Grid — vitória no CSS Grid Attack (grid zerado &#x1F3C6;)
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+  <!-- ---------------------------------------------------------- -->
+
+  <footer>
+    <p>Trilha Heroica CSS &copy; 2025</p>
+  </footer>
+</body>
+
+</html>

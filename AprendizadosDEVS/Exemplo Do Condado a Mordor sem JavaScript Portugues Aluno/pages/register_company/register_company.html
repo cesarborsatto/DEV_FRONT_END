@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Companhias</title>
+
+  <!-- Carrega o CSS -->
+  <link rel="stylesheet" href="../../pages/register_company/register_company.css">
+  <link rel="stylesheet" href="../../components/sidebar/sidebar.css">
+
+  <!-- Carrega o favicon -->
+  <link rel="icon" href="../../favicon/favicon.png">
+
+  <!-- Carrega o JS -->
+  <script type="module" src="../../components/sidebar/sidebar.js"></script>
+  <script src="register_company.js" defer></script>
+</head>
+
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#content">Pular Para o Conteúdo Principal</a>
+
+  <app-sidebar></app-sidebar>
+
+  <!-- Main layout -->
+  <main tabindex="-1" id="content" class="main-layout">
+    <h1>Conselho de Gondor: Cadastros Oficiais</h1>
+
+    <!-- Section form -->
+    <section class="section-form">
+
+      <h2>Cadastrar Companhia</h2>
+
+      <form id="register_company" class="section-form__form">
+
+        <div class="section-form__style-field section-form__company-name">
+          <label for="company-name">Nome companhia*</label>
+          <input type="text" id="company-name" name="companyName" placeholder="Ex.: Companhia do Anel">
+        </div>
+
+        <div class="section-form__style-field section-form__leader-name">
+          <label for="leader-name">Líder*</label>
+          <input type="text" id="leader-name" name="leaderName" placeholder="Ex.: Aragorn, Boromir, Gandalf...">
+        </div>
+
+        <div class="section-form__style-field section-form__groud-size">
+          <label for="group-size">Tamanho do grupo*</label>
+          <input type="number" id="group-size" name="groupSize" min="1" placeholder="Ex.: 9">
+        </div>
+
+        <div class="section-form__style-field section-form__specialty">
+          <label for="specialty">Especialidade*</label>
+          <input type="text" id="specialty" name="specialty" placeholder="Ex.: Rastreamento, magia, cavalaria...">
+        </div>
+
+        <div class="section-form__style-field section-form__company-status">
+          <label for="company-status">Situação*</label>
+          <select id="company-status" name="companyStatus">
+            <option value="">Selecione...</option>
+            <option value="Disponível">Disponível</option>
+            <option value="Em Missão">Em Missão</option>
+            <option value="Desmobilizada">Desmobilizada</option>
+          </select>
+        </div>
+
+        <div class="section-form__style-field section-form__company-notes">
+          <label for="company-notes">Observações</label>
+          <textarea id="company-notes" name="companyNotes" rows="3"
+            placeholder="Anotações adicionais sobre a expedição..."></textarea>
+        </div>
+
+        <div class="section-form__buttons">
+          <button type="submit">Salvar Companhia</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

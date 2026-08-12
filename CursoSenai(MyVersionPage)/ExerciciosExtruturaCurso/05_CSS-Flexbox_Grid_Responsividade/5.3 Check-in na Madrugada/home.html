@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hotel Transilvânia — Início</title>
+
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#">Pular o Menu de Navegação</a>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html" aria-current="page">Início</a></li>
+        <li><a href="hospedes.html">Hóspedes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main tabindex="-1">
+    <h1>Hotel Transilvânia</h1>
+
+    <section>
+      <h2>Fundadores</h2>
+
+      <div>
+        <img src="" alt="Drácula e sua esposa ninam sua pequena filha Mavis">
+
+        <p>
+          O Hotel Transilvânia nasceu do plano de Drácula para manter Mavis segura após a perda de sua esposa &ndash; um
+          refúgio seguro para monstros. O hotel mantém viva a lembrança de sua esposa
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Um castelo para monstros e humanos &#x1F987;</h2>
+
+      <p>
+        Refúgio noturno, buffet monstruoso e vista para o abismo. Conforto assombrado com segurança e estilo.
+      </p>
+
+      <article>
+        <h3>Suítes Assombradas</h3>
+
+        <img src=""
+          alt="Quarto temático de hotel com cama de dossel roxa, janelas góticas, vista noturna da lua e um ambiente escuro e elegante. Uma porta ao fundo revela uma parede com isolamento acústico.">
+
+        <p>
+          Quartos temáticos com isolamento acústico e blackout 100% vampiro-friendly.
+        </p>
+      </article>
+
+      <article>
+        <h3>Buffet Monstruoso</h3>
+
+        <img src=""
+          alt="Grande salão de festas do Hotel Transylvania com uma longa mesa repleta de comida exótica e assustadora. Diversos monstros, incluindo vampiros, múmias e criaturas, estão reunidos ao redor da mesa desfrutando do banquete.">
+
+        <p>
+          Cardápio para vampiros, múmias e mortais. Opções sem alho e sem luz UV.
+        </p>
+      </article>
+
+      <article>
+        <h3>Vista Abismal</h3>
+
+        <img src=""
+          alt="Mirante gótico de pedra com grades ornamentadas, oferecendo uma vista panorâmica de um vale coberto por neblina. Um castelo misterioso surge ao longe em meio à névoa, enquanto corvos voam em espiral no céu noturno sob uma lua crescente.">
+
+        <p>
+          Mirante com neblina cenográfica e trilha de corvos em loop.
+        </p>
+      </article>
+
+      <article>
+        <h3>Spa das Sombras</h3>
+
+        <img src=""
+          alt="Cena de spa com monstros. Uma múmia está deitada em uma maca recebendo uma massagem de um fantasma. Um yeti relaxa em uma sauna fria azul brilhante, enquanto o Conde Drácula observa com uma bebida. Caixões servem como mobília.">
+
+        <p>
+          Massagem espectral e sauna fria para relaxar após a caça.
+        </p>
+      </article>
+
+      <!-- <aside> é conteúdo complementar (indiretamente relacionado) ao bloco onde está. -->
+      <aside>
+        <p>
+          <strong>Noite de Estreia:</strong>
+          15% OFF para check-ins durante a Lua Cheia. <em>Vagas limitadas.</em>
+          <!-- <em> = Por padrão renderiza em itálico, mas o importante é o significado: indica que aquela palavra/frase deve ser lida com ênfase. Pode aninhar (<em><em>…</em></em>) pra enfatizar mais. -->
+        </p>
+      </aside>
+    </section>
+
+    <section>
+      <h2>Reserve sua estadia</h2>
+
+      <form autocomplete="on">
+        <fieldset>
+          <legend>Formulário para Reserva</legend>
+
+          <div>
+            <label for="full-name">Nome completo</label>
+            <input id="full-name" name="full-name" type="text" autocomplete="name">
+          </div>
+
+          <div>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email">
+          </div>
+
+          <div>
+            <label for="phone">Telefone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+
+          <div>
+            <label for="guests">Nº de hóspedes</label>
+            <input id="guests" name="guests" type="number" min="1">
+          </div>
+
+          <div>
+            <label for="check-in">Check-in</label>
+            <input id="check-in" name="check-in" type="date">
+          </div>
+
+          <div>
+            <label for="check-out">Check-out</label>
+            <input id="check-out" name="check-out" type="date">
+          </div>
+
+          <div>
+            <label for="room-type">Tipo de quarto</label>
+
+            <select id="room-type" name="room-type">
+              <option value="">Selecione…</option>
+              <option value="premium-crypt">Cripta Premium</option>
+              <option value="mist-suite">Suíte Neblina</option>
+              <option value="moon-tower">Torre Luar</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="extra-beds">Camas extras</label>
+
+            <select id="extra-beds" name="extra-beds">
+              <option value="0">Nenhuma</option>
+              <option value="1">1 cama</option>
+              <option value="2">2 camas</option>
+            </select>
+          </div>
+
+          <div>
+            <span>Acessibilidade</span>
+
+            <div>
+              <div>
+                <input id="access-ramp" name="accessibility" type="checkbox">
+                <label for="access-ramp">Rampa</label>
+              </div>
+
+              <div>
+                <input id="access-elevator" name="accessibility" type="checkbox">
+                <label for="access-elevator">Elevador</label>
+              </div>
+
+              <div>
+                <input id="access-menu" name="accessibility" type="checkbox">
+                <label for="access-menu">Menu acessível</label>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <span>Extras do Castelo</span>
+
+            <div>
+              <div>
+                <input id="addon-breakfast" name="addons" type="checkbox">
+                <label for="addon-breakfast">Café da manhã</label>
+              </div>
+
+              <div>
+                <input id="addon-night-transfer" name="addons" type="checkbox">
+                <label for="addon-night-transfer">Transporte noturno</label>
+              </div>
+
+              <div>
+                <input id="addon-guided-activities" name="addons" type="checkbox">
+                <label for="addon-guided-activities">Atividades guiadas</label>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- 
+            inputmode="numeric" só dá uma dica pro navegador sobre qual teclado mostrar — principalmente no celular. O que faz: abre teclado numérico (0–9) no mobile. O que NÃO faz: não valida nem impede letras. Se você digitar “a”, ele aceita. -->
+            <!-- 
+            cc-number é um token de autocomplete do HTML que diz ao navegador/gerenciador de senhas:
+            “Este campo é o número do cartão de crédito.” -->
+            <label for="cc-name">Nome no cartão</label>
+            <input id="cc-name" name="cc-name" type="text" autocomplete="cc-name">
+          </div>
+
+          <div>
+            <label for="cc-number">Nº do cartão</label>
+            <input id="cc-number" name="cc-number" type="text" inputmode="numeric" autocomplete="cc-number">
+          </div>
+
+          <div>
+            <label for="cc-expiry">Validade (MM/AA)</label>
+            <input id="cc-expiry" name="cc-expiry" type="text" inputmode="numeric" autocomplete="cc-exp">
+          </div>
+
+          <div>
+            <label for="cc-cvv">CVV</label>
+            <input id="cc-cvv" name="cc-cvv" type="text" inputmode="numeric" autocomplete="cc-csc">
+          </div>
+
+          <div>
+            <label for="message">Fale com a gente</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+        </fieldset>
+
+        <div>
+          <button type="submit">Solicitar Reserva</button>
+
+          <a href="hospedes.html">
+            Ver Hóspedes
+          </a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; Atividade: Check-in na Madrugada &ndash; Uma experiência assombrada e única.
+    </p>
+  </footer>
+</body>
+
+</html>

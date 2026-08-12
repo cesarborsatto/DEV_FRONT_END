@@ -1,0 +1,233 @@
+* {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+
+figure img {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 50px;
+}
+
+.skip-link {
+    background-color: rgba(242, 252, 255, 0.781);
+    border: 1px solid #f49f0b00;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 0;
+    text-decoration: none;
+    color: #7c2d12;
+    position: absolute;
+    top: 8px;
+    left: 60px;
+    transform: translateY(-150%);
+    transition: 1s;
+}
+
+.skip-link:focus-visible {
+    transform: translateY(0);
+    transition: 1s;
+}
+
+header {
+    background-color: #0A3161;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.nav-bar a {
+    text-decoration: none;
+    color: #FCE96A;
+    margin: 0 20px;
+    border: 1px;
+    padding: 4px;
+}
+
+.efeito:hover {
+    background-color: rgba(135, 68, 252, 0.5);
+    padding: 4px 10px;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
+.nav-bar a[aria-current="page"] {
+    border-bottom: 1px solid rgb(135, 68, 252);
+}
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+main h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #5a2ea6;
+    text-align: center;
+    color: black;
+}
+
+fieldset{
+    text-align: center;
+    padding: 12px;
+    margin:  0 10px ;
+    background: whitesmoke;
+    border-radius: 16px;
+}
+fieldset legend {
+    text-align: left;
+}
+
+.posFildSet{
+    margin: 0  12px;
+}
+main{
+    margin: 0  12px;
+}
+
+.container-portais {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.container-portais ol {
+    width: 30%;
+    margin: 50px auto;
+}
+
+.tabela caption {
+    font-weight: bolder;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+.container-tabela {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+.tabela {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.tabela {
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+
+.tabela,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+}
+
+thead {
+    background-color: #0A3161;
+    color: #FCE96A;
+
+}
+
+.container-comandos {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: grid;
+
+}
+
+.box-central {
+    width: 100%;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.box-central ul,
+a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 auto;
+
+}
+
+.box {
+    border-radius: 8px;
+    background-image: url(assets/img/rostos_personagens.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+
+.button {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 4px 10px;
+    background-color: #15273db8;
+    color: azure;
+    margin: auto 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0d2746;
+    transition: 0.3s;
+    font-size: large;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #0d2746;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 10px;
+}
+
+footer address a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.voltar-topo img {
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    width: 70px;
+}

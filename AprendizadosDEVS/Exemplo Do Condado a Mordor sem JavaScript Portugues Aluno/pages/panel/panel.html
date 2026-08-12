@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel - Expedições e Companhias</title>
+
+  <!-- Carrega o CSS -->
+  <link rel="stylesheet" href="../panel/panel.css">
+  <link rel="stylesheet" href="../../components/sidebar/sidebar.css">
+
+  <!-- Carrega o favicon -->
+  <link rel="icon" href="../../favicon/favicon.png">
+
+  <!-- Carrega o JS -->
+  <script type="module" src="../../components/sidebar/sidebar.js"></script>
+
+  <script src="panel.js" defer></script>
+</head>
+
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#content">Pular Para o Conteúdo Principal</a>
+
+  <app-sidebar></app-sidebar>
+
+  <!-- Main layout -->
+  <main tabindex="-1" id="content" class="main-layout">
+    <h1>Painel de Expedições e Companhias da Terra-média</h1>
+
+    <h2>Expedições registradas</h2>
+
+    <!-- Section cards -->
+    <section class="section-cards">
+      <article class="section-cards__card">
+        <figure class="section-cards__figure">
+          <img src="/assets/img/img_panel/img_condado.png" alt="">
+        </figure>
+
+        <h3>Companhia: Guardiões do Condado &ndash;</h3>
+        <h3>Qtde: 12</h3>
+        <h4>Expedição: Vigília sobre o Norte</h4>
+
+        <ul class="section-cards__ul">
+          <li><span>Risco:</span> Médio</li>
+          <li><span>Líder:</span> Aragorn, filho de Arathorn</li>
+          <li><span>Origem:</span> Valfenda.</li>
+          <li><span>Destino:</span> Condado</li>
+          <li><span>Objetivo:</span> Proteger as fronteiras do Condado de incursões de orcs vindos do norte.</li>
+          <li><span>Data de partida:</span> 3018-09-01</li>
+        </ul>
+
+        <div class="section-cards__buttons">
+          <button class="button-edit" type="button">Editar Expedição</button>
+          <button class="button-delete" type="button">Excluir Expedição</button>
+        </div>
+      </article>
+
+      <article class="section-cards__card">
+        <figure class="section-cards__figure">
+          <img src="/assets/img/img_panel/img_eriador.png" alt="">
+        </figure>
+
+        <h3>Companhia: Batedores de Eriador &ndash;</h3>
+        <h3>Qtde: 16</h3>
+        <h4>Expedição: Trilhas do Oeste</h4>
+
+        <ul class="section-cards__ul">
+          <li><span>Risco:</span> Baixo</li>
+          <li><span>Líder:</span> Halbarad, dos Dúnedain</li>
+          <li><span>Origem:</span> Gondor.</li>
+          <li><span>Destino:</span> Eriador</li>
+          <li><span>Objetivo:</span> Reconhecer antigas estradas e estabelecer rotas seguras para mensageiros.</li>
+          <li><span>Data de partida:</span> 3018-08-18</li>
+        </ul>
+
+        <div class="section-cards__buttons">
+          <button class="button-edit" type="button">Editar Expedição</button>
+          <button class="button-delete" type="button">Excluir Expedição</button>
+        </div>
+      </article>
+
+      <article class="section-cards__card">
+        <figure class="section-cards__figure">
+          <img src="/assets/img/img_panel/img_floresta_das_trevas.png" alt="">
+        </figure>
+
+        <h3>Companhia: Sentinelas da Floresta &ndash;</h3>
+        <h3>Qtde: 10</h3>
+        <h4>Expedição: Sussurros na Floresta das Trevas</h4>
+
+        <ul class="section-cards__ul">
+          <li><span>Risco:</span> Alto</li>
+          <li><span>Líder:</span> Legolas, filho de Thranduil</li>
+          <li><span>Origem:</span> Rohan.</li>
+          <li><span>Destino:</span> Floresta das Trevas</li>
+          <li><span>Objetivo:</span> Investigar o aumento da sombra e localizar movimentações de criaturas de Sauron.
+          </li>
+          <li><span>Data de partida:</span> 3018-10-03</li>
+        </ul>
+
+        <div class="section-cards__buttons">
+          <button class="button-edit" type="button">Editar Expedição</button>
+          <button class="button-delete" type="button">Excluir Expedição</button>
+        </div>
+      </article>
+
+      <article class="section-cards__card">
+        <figure class="section-cards__figure">
+          <img src="/assets/img/img_panel/img_gondor.png" alt="">
+        </figure>
+
+        <h3>Companhia: Escudos de Gondor &ndash;</h3>
+        <h3>Qtde: 40</h3>
+        <h4>Expedição: Chamado da Torre Branca</h4>
+
+        <ul class="section-cards__ul">
+          <li><span>Risco:</span> Alto</li>
+          <li><span>Líder:</span> Boromir de Gondor</li>
+          <li><span>Origem:</span> Condado.</li>
+          <li><span>Destino:</span> Gondor</li>
+          <li><span>Objetivo:</span> Levar notícias sobre o Um Anel e reforços ao comando de Minas Tirith.</li>
+          <li><span>Data de partida:</span> 3018-12-01</li>
+        </ul>
+
+        <div class="section-cards__buttons">
+          <button class="button-edit" type="button">Editar Expedição</button>
+          <button class="button-delete" type="button">Excluir Expedição</button>
+        </div>
+      </article>
+
+      <article class="section-cards__card">
+        <figure class="section-cards__figure">
+          <img src="/assets/img/img_panel/img_mordor.png" alt="">
+        </figure>
+
+        <h3>Companhia: Lanceiros de Fogo &ndash;</h3>
+        <h3>Qtde: 18</h3>
+        <h4>Expedição: Sombras sobre Mordor</h4>
+
+        <ul class="section-cards__ul">
+          <li><span>Risco:</span> Altíssimo</li>
+          <li><span>Líder:</span> Faramir, capitão de Gondor</li>
+          <li><span>Origem:</span> Rohan.</li>
+          <li><span>Destino:</span> Mordor</li>
+          <li><span>Objetivo:</span> Espionar os portões de Mordor e avaliar a força dos exércitos de Sauron.</li>
+          <li><span>Data de partida:</span> 3019-02-15</li>
+        </ul>
+
+        <div class="section-cards__buttons">
+          <button class="button-edit" type="button">Editar Expedição</button>
+          <button class="button-delete" type="button">Excluir Expedição</button>
+        </div>
+      </article>
+
+      <article class="section-cards__card">
+        <figure class="section-cards__figure">
+          <img src="/assets/img/img_panel/img_rohan.png" alt="">
+        </figure>
+
+        <h3>Companhia: Cavaleiros de Rohan &ndash;</h3>
+        <h3>Qtde: 25</h3>
+        <h4>Expedição: Ventos do Oeste</h4>
+
+        <ul class="section-cards__ul">
+          <li><span>Risco:</span> Médio</li>
+          <li><span>Líder:</span> Éomer, Marechal da Marca</li>
+          <li><span>Origem:</span> Eriador.</li>
+          <li><span>Destino:</span> Rohan</li>
+          <li><span>Objetivo:</span> Reunir cavaleiros dispersos e preparar as defesas contra ataques de orcs.</li>
+          <li><span>Data de partida:</span> 3019-03-05</li>
+        </ul>
+
+        <div class="section-cards__buttons">
+          <button class="button-edit" type="button">Editar Expedição</button>
+          <button class="button-delete" type="button">Excluir Expedição</button>
+        </div>
+      </article>
+
+      <article class="section-cards__card">
+        <figure class="section-cards__figure">
+          <img src="/assets/img/img_panel/img_valfenda.png" alt="">
+        </figure>
+
+        <h3>Companhia: Guardiões de Valfenda &ndash;</h3>
+        <h3>Qtde: 14</h3>
+        <h4>Expedição: Ecos em Valfenda</h4>
+
+        <ul class="section-cards__ul">
+          <li><span>Risco:</span> Baixo</li>
+          <li><span>Líder:</span> Elrond, senhor de Valfenda</li>
+          <li><span>Origem:</span> Gondor.</li>
+          <li><span>Destino:</span> Valfenda</li>
+          <li><span>Objetivo:</span> Conduzir emissários das terras dos Homens para o conselho em Valfenda.</li>
+          <li><span>Data de partida:</span> 3018-10-20</li>
+        </ul>
+
+        <div class="section-cards__buttons">
+          <button class="button-edit" type="button">Editar Expedição</button>
+          <button class="button-delete" type="button">Excluir Expedição</button>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section edit card -->
+    <section class="section-edit-card">
+      <h2>Atualizar</h2>
+      <div class="section-edit-card__close-icon">
+        <img src="/assets/img/img_panel/close_icon.png" alt="">
+      </div>
+
+      <form class="section-edit-card__form">
+        <div class="section-edit-card__style-field section-edit-card__company-name">
+          <label for="company-name">Companhia*</label>
+          <select id="company-name" name="companyName">
+            <!-- Criado dinamicamente no JS -->
+          </select>
+        </div>
+
+        <div class="section-edit-card__style-field section-edit-card__leader-name">
+          <label for="leader-name">Líder*</label>
+          <input type="text" id="leader-name" name="leaderName" placeholder="Ex.: Aragorn, Boromir, Gandalf...">
+        </div>
+
+        <div class="section-edit-card__style-field section-edit-card__groud-size">
+          <label for="group-size">Tamanho do grupo*</label>
+          <input type="number" id="group-size" name="groupSize" min="1" placeholder="Ex.: 9">
+        </div>
+
+        <div class="section-edit-card__style-field section-edit-card__expedition-name">
+          <label for="expedition-name">Nome da expedição*</label>
+          <input type="text" id="expedition-name" name="expeditionName" placeholder="Ex.: Caminho para Mordor">
+        </div>
+
+        <div class="section-edit-card__style-field section-edit-card__origin-region">
+          <label for="origin-region">Região de origem*</label>
+          <select id="origin-region" name="originRegion">
+            <option value="">Selecione...</option>
+            <option value="Condado">Condado</option>
+            <option value="Eriador">Eriador</option>
+            <option value="Floresta das Trevas">Floresta das Trevas</option>
+            <option value="Gondor">Gondor</option>
+            <option value="Mordor">Mordor</option>
+            <option value="Rohan">Rohan</option>
+            <option value="Valfenda">Valfenda</option>
+          </select>
+        </div>
+        
+        <div class="section-edit-card__style-field section-edit-card__destination-region">
+          <label for="destination-region">Região de destino*</label>
+          <select id="destination-region" name="destinationRegion">
+            <option value="">Selecione...</option>
+            <option value="Condado">Condado</option>
+            <option value="Eriador">Eriador</option>
+            <option value="Floresta das Trevas">Floresta das Trevas</option>
+            <option value="Gondor">Gondor</option>
+            <option value="Mordor">Mordor</option>
+            <option value="Rohan">Rohan</option>
+            <option value="Valfenda">Valfenda</option>
+          </select>
+        </div>
+
+        <div class="section-edit-card__style-field section-edit-card__mission-objective">
+          <label for="mission-objective">Objetivo da missão*</label>
+          <input type="text" id="mission-objective" name="missionObjective"
+            placeholder="Ex.: Vigiar as fronteiras, levar suprimentos...">
+        </div>
+
+        <div class="section-edit-card__style-field section-edit-card__risk-level">
+          <label for="risk-level">Nível de risco*</label>
+          <select id="risk-level" name="riskLevel">
+            <option value="">Selecione...</option>
+            <option value="Baixo">Baixo</option>
+            <option value="Médio">Médio</option>
+            <option value="Alto">Alto</option>
+          </select>
+        </div>
+
+        <div class="section-edit-card__style-field section-edit-card__initial-status">
+          <label for="initial-status">Status inicial*</label>
+          <select id="initial-status" name="initialStatus">
+            <option value="">Selecione...</option>
+            <option value="Planejada">Planejada</option>
+            <option value="Em Andamento">Em Andamento</option>
+            <option value="Concluída">Concluída</option>
+          </select>
+        </div>
+
+        <div class="section-edit-card__style-field section-edit-card__departure-date">
+          <label for="departure-date">Data de partida*</label>
+          <input type="date" id="departure-date" name="departureDate">
+        </div>
+
+        <!-- <div class="section-edit-card__style-field section-edit-card__expedition-notes">
+          <label for="expedition-notes">Observações</label>
+          <textarea id="expedition-notes" name="expeditionNotes" rows="3"
+            placeholder="Anotações adicionais sobre a expedição..."></textarea>
+        </div> -->
+
+        <div class="section-edit-card__buttons">
+          <button class="section-edit-card__button-update" type="button">Atualizar</button>
+          <button class="section-edit-card__button-cancel" type="button">Cancelar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

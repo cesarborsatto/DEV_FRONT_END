@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Arquivo Winchester</title>
+
+    <!-- Fonts Google -->
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tektur:wght@400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Links Biblioteca de Icones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Links Favicon -->
+    <link rel="shortcut icon"
+        href="/assets/favicon/img_favicon.png"
+        type="image/x-icon">
+
+    <!-- Links CSS -->
+    <link rel="stylesheet"
+        href="/components/btn-generic/btn-generic.css">
+    <link rel="stylesheet"
+        href="login.css">
+    <link rel="stylesheet"
+        href="/components/navbar/navbar.css">
+    <link rel="stylesheet"
+        href="/components/footer/footer.css">
+
+    <!-- Scripts JavaScript -->
+    <script src="/components/footer/footer.js"
+        defer></script>
+    <script src="/components/navbar/navbar.js"
+        defer></script>
+
+</head>
+
+
+
+<body>
+
+    <app-navbar></app-navbar>
+
+    <a class="skip-link"
+        href="#content">Pular Menu de Navegação</a>
+
+    <main tabindex="-1">
+
+        <form action="">
+            <section>
+                <h1>Acessar Arquivos</h1>
+                <fieldset>
+                    <div class="label">
+                        <label class="text-label"
+                            for="">Nome do Caçador</label>
+                        <input type="text"
+                            id=""
+                            placeholder="Ex. Bob Singer">
+                    </div>
+
+                    <div class="label">
+                        <label class="text-label"
+                            for="">Senha</label>
+                        <input type="password"
+                            id="senha"
+                            placeholder="Digite sua senha">
+                    </div>
+
+                    <div>
+                        <p>Nao possui cadastro?
+                            <a href="">Clique aqui!</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <button class=" btn-generic"
+                            type="button">Entrar</button>
+                    </div>
+                </fieldset>
+
+            </section>
+        </form>
+    </main>
+
+    <app-footer></app-footer>
+
+
+</body>
+
+</html>

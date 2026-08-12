@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Expedições</title>
+
+  <!-- Carrega o CSS -->
+  <link rel="stylesheet" href="../../pages/register_expedition/register_expedition.css">
+  <link rel="stylesheet" href="../../components/sidebar/sidebar.css">
+
+  <!-- Carrega o favicon -->
+  <link rel="icon" href="../../favicon/favicon.png">
+
+  <!-- Carrega o JS -->
+  <script type="module" src="../../components/sidebar/sidebar.js"></script>
+  <script src="register_expedition.js" defer></script>
+</head>
+
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#content">Pular Para o Conteúdo Principal</a>
+
+  <app-sidebar></app-sidebar>
+
+  <!-- Main layout -->
+  <main tabindex="-1" id="content" class="main-layout">
+    <h1>Conselho de Gondor: Cadastros Oficiais</h1>
+
+    <!-- Section form -->
+    <section class="section-form">
+
+      <h2>Cadastrar Expedição</h2>
+
+      <form id="register-expedition" class="section-form__form">
+        <div class="section-form__style-field section-form__expedition-name">
+          <label for="expedition-name">Nome da expedição*</label>
+          <input type="text" id="expedition-name" name="expeditionName" placeholder="Ex.: Caminho para Mordor">
+        </div>
+
+        <div class="section-form__style-field section-form__origin-region">
+          <label for="origin-region">Região de origem*</label>
+          <select id="origin-region" name="originRegion">
+            <option value="">Selecione...</option>
+            <option value="Condado">Condado</option>
+            <option value="Eriador">Eriador</option>
+            <option value="Floresta das Trevas">Floresta das Trevas</option>
+            <option value="Gondor">Gondor</option>
+            <option value="Mordor">Mordor</option>
+            <option value="Rohan">Rohan</option>
+            <option value="Valfenda">Valfenda</option>
+          </select>
+        </div>
+
+        <div class="section-form__style-field section-form__destination-region">
+          <label for="destination-region">Região de destino*</label>
+          <select id="destination-region" name="destinationRegion">
+            <option value="">Selecione...</option>
+            <option value="Condado">Condado</option>
+            <option value="Eriador">Eriador</option>
+            <option value="Floresta das Trevas">Floresta das Trevas</option>
+            <option value="Gondor">Gondor</option>
+            <option value="Mordor">Mordor</option>
+            <option value="Rohan">Rohan</option>
+            <option value="Valfenda">Valfenda</option>
+          </select>
+        </div>
+
+        <div class="section-form__style-field section-form__company-name">
+          <label for="company-name">Companhia*</label>
+          <select id="company-name" name="companyName">
+            <option value="">Selecione...</option>
+            <option value="baixo">Nome 1</option>
+            <option value="medio">Nome 2</option>
+            <option value="alto">Nome 3</option>
+          </select>
+        </div>
+
+        <div class="section-form__style-field section-form__mission-objective">
+          <label for="mission-objective">Objetivo da missão*</label>
+          <input type="text" id="mission-objective" name="missionObjective"
+            placeholder="Ex.: Vigiar as fronteiras, levar suprimentos...">
+        </div>
+
+        <div class="section-form__style-field section-form__risk-level">
+          <label for="risk-level">Nível de risco*</label>
+          <select id="risk-level" name="riskLevel">
+            <option value="">Selecione...</option>
+            <option value="Baixo">Baixo</option>
+            <option value="Médio">Médio</option>
+            <option value="Alto">Alto</option>
+          </select>
+        </div>
+
+        <div class="section-form__style-field section-form__initial-status">
+          <label for="initial-status">Status inicial*</label>
+          <select id="initial-status" name="initialStatus">
+            <option value="">Selecione...</option>
+            <option value="Planejada">Planejada</option>
+            <option value="Em Andamento">Em Andamento</option>
+            <option value="Concluída">Concluída</option>
+          </select>
+        </div>
+
+        <div class="section-form__style-field section-form__departure-date">
+          <label for="departure-date">Data de partida*</label>
+          <input type="date" id="departure-date" name="departureDate">
+        </div>
+
+        <div class="section-form__style-field section-form__expedition-notes">
+          <label for="expedition-notes">Observações</label>
+          <textarea id="expedition-notes" name="expeditionNotes" rows="3"
+            placeholder="Anotações adicionais sobre a expedição..."></textarea>
+        </div>
+
+        <div class="section-form__buttons">
+          <button type="submit">Salvar Expedição</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

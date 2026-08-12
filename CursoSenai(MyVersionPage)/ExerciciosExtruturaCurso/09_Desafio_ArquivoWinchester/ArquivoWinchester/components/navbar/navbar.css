@@ -1,0 +1,267 @@
+/* ========  RESET / BASE  ======== */
+
+
+header {
+    background: #b9cae5;
+}
+
+app-navbar {
+    z-index: 99;
+}
+
+.bg-blue {
+    background: transparent;
+}
+
+img {
+    height: 60px;
+}
+
+figure {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 20px 0 20px;
+}
+
+nav {
+    display: flex;
+}
+
+/* ========  NAVBAR - ESTADO PADRÃO (MOBILE FIRST)  ======== */
+
+.nav--home {
+    display: none;
+}
+
+.navbar--off {
+    transform: translateY(0);
+    transition: .3s;
+    background: #b9cae5;
+
+}
+
+.navbar--only {
+    transform: translateY(-100%);
+
+    /* display: none; */
+    transition: .3s;
+}
+
+.navbar--only2 {
+    display: none;
+    transition: .3s;
+}
+
+.toggle {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.toggle img {
+    position: rela;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+/* 
+   ========  LINKS DO NAVBAR  ======== */
+
+.container-navbar {
+    display: flex;
+    flex-direction: column;
+    background: #b9cae5;
+    padding: 8px;
+}
+
+.links-navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-navbar>a {
+    margin-bottom: 8px;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link[aria-current="page"] {
+    border-bottom: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    font-weight: 500;
+}
+
+.fa-arrow-left {
+    padding-right: 4px;
+}
+
+
+/* ========  MEDIA QUERIES - LOGO (TABLET)  ======== */
+
+@media (width <=350px) {
+
+
+    .img-logo-mobile {
+        display: block;
+    }
+
+    .img-logo-desktop {
+        display: none;
+    }
+}
+
+@media (width >=351px) {
+
+    .navbar--desktop {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 30px 8px
+    }
+
+    .navbar--only2 {
+        grid-row: 2;
+    }
+
+    .bg-logo-tablet {
+        grid-row: 1;
+    }
+
+    .nav--home {
+        display: block;
+    }
+
+    .img-logo-mobile {
+        display: none;
+    }
+
+    .bg-logo-tablet {
+        background: #b9cae5;
+    }
+
+    .img-logo-desktop {
+        display: block;
+        position: static;
+        left: 20px;
+        top: 8px;
+        padding: 8px 0 8px 0;
+    }
+
+    .links-navbar {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+    }
+
+    .links-navbar>a {
+        margin-bottom: 0px;
+        font-size: 22px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #151515;
+        display: flex;
+    }
+
+    .links-navbar>a[aria-current="page"] {
+        background: #FFFFFF99;
+        border: 1px solid #1D4ED8;
+        border-radius: 8px;
+        padding: 0px 16px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media (width >=990px) {
+    .toggle {
+        display: none;
+    }
+
+    .img-logo-desktop {
+        display: block;
+        padding: 8px 0 8px 0;
+    }
+
+    nav {
+        padding-top: 1px;
+    }
+
+    .links-navbar {
+        position: static;
+    }
+}
+
+
+/* ========  CSS - DESKTOP  ======== */
+
+@media (width >=990px) {
+
+    .container-navbar {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .navbar--desktop {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        background: #b9cae5;
+        margin: 0px;
+        padding: 0;
+
+    }
+
+    .navbar--only2 {
+        display: block;
+        padding: 0;
+    }
+
+    .img-logo-desktop {
+        position: static;
+        display: block;
+    }
+
+    .img-logo-mobile {
+        display: none;
+    }
+
+    .links-navbar {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 0px auto;
+    }
+
+    .links-navbar>a {
+        margin-bottom: 0px;
+        font-size: 22px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #151515;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links-navbar>a[aria-current="page"] {
+        background: #FFFFFF99;
+        border: 1px solid #1D4ED8;
+        border-radius: 8px;
+        padding: 0px 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

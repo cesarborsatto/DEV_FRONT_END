@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vingadores: Ultimato — CSS Inline</title>
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="inline.css">
+</head>
+
+<img class="imagem-logo" src="assets/img/logo.svg" alt="Logo do Site"></img>
+
+<body id="topo">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header>
+    <nav class="nav-style">
+      <a href="endgame-inline.html" aria-current="page">Inline</a>
+      <a href="endgame-interno.html">Interno</a>
+      <a href="endgame-externo.html">Externo</a>
+    </nav>
+
+  </header  >
+  
+  <main id="conteudo">
+    <h1>Vingadores: Ultimato — CSS Inline</h1>
+    
+    <section class="section01">
+      <h2>Time Heist &ndash; Equipes e destinos</h2>
+      
+      <ol>
+        <li>NOVA YORK, 2012
+          <ul>
+            <li>Tony Stark & Steve Rogers — Tesseract</li>
+            <li>Bruce Banner — Anciã (Tempo)</li>
+          </ul>
+        </li>
+        
+        <li>ASGARD, 2013
+          <ul>
+            <li>Thor & Rocket — Éter (Realidade)</li>
+          </ul>
+        </li>
+        
+        <li>MORAG, 2014
+          <ul>
+            <li>Nebulosa & Máquina de Combate — Orbe (Poder)</li>
+          </ul>
+        </li>
+        
+        <li>VORMIR, 2014
+          <ul>
+            <li>Natasha Romanoff & Clint Barton — Alma</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section02">
+      <h2>Missões e focos</h2>
+      
+      <table>
+        <!-- Utilize aria-label="Missões e focos" dentro de <tabel> caso a tabela não tenha <caption> -->
+        <caption>Missões e focos</caption>
+        
+        <thead>
+          <tr class="cabecalho-tabela">
+            <th scope="col">Personagem</th>
+            <th scope="col">Par/Equipe</th>
+            <th scope="col">Destino</th>
+            <th scope="col">Joia/Objetivo</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td scope="row">Tony Stark</th>
+            <td>com Steve</td>
+            <td>NY 2012 / 1970</td>
+            <td>Tesseract + Partículas Pym</td>
+          </tr>
+          
+          <tr>
+            <td scope="row">Bruce Banner</th>
+            <td>sozinho</td>
+            <td>NY 2012</td>
+            <td>Tempo (com a Anciã)</td>
+          </tr>
+          
+          <tr>
+            <td scope="row">Thor</th>
+            <td>com Rocket</td>
+            <td>Asgard 2013</td>
+            <td>Realidade (Éter)</td>
+          </tr>
+          
+          <tr>
+            <td scope="row">Natasha Romanoff</th>
+            <td>com Clint</td>
+            <td>Vormir 2014</td>
+            <td>Alma (sacrifício)</td>
+          </tr>
+        </tbody>
+        
+        <tfoot>
+          <tr>
+            <td colspan="4"><strong>Objetivo:</strong> pares viajam no tempo para recuperar as Joias e reverter o estalo.</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 &ndash; CSS: Ultimato, a última esperança da Terra</p>
+  </footer>
+
+  <!-- Link âncora para o topo (imagem) -->
+  <a class="imagem-topo"href="#topo" title="Voltar ao topo">
+    <img  src="assets/img/seta_para_cima.svg" alt="Seta para cima" />
+  </a>
+</body>
+</html>
