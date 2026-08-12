@@ -1,6 +1,6 @@
 class AppNavbar extends HTMLElement {
     async connectedCallback() {
-        const response = await fetch('/components/navbar/navbar.html');
+        const response = await fetch('/CursoSenai(MyVersionPage)/ExerciciosExtruturaCurso/09_Desafio_ArquivoWinchester/ArquivoWinchester/components/navbar/navbar.html');
         const html = await response.text();
         this.innerHTML = html;
 
